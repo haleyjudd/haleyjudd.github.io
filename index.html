@@ -24,14 +24,10 @@
         <img src="images/hjudd.jpg" alt="Haley with fall background">
         <footer>
         
-            <p>&copy;2021| Haley Judd | New York | <a href= "https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-    
-            <p id="date"></p>
-            
-            <script>
-            var x = document.lastModified;
-            document.getElementById("date").innerHTML = x;
-            </script>
+            <p>&copy; <span id="dynamicYear"></span> | Haley Judd | New York | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+            <span id="lastModified"></span>
+        </footer>
+        <script src="script.js"></script>
         </footer>
     </body>
 </html>

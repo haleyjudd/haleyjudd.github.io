@@ -47,15 +47,19 @@ h1 {
    text-decoration: underline; 
 }
 
+.center li {
+    font-size: 15pt;
+}
+
 
 footer {
     padding: 1em;
     margin-top: 4em;
-    margin-left: 16.4em;
-    margin-right: 16.4em;
+    margin-left: 19.2em;
+    margin-right: 19.2em;
     background-color: rgb(97, 48, 64);
     font-family: "nanum myeon", "lucinda sans";
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: bold;
     text-align: center;
     border-radius: 25px;
