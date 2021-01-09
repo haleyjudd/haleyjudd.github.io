@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+body {
+    padding: 0;
+    background-color: rgb(70, 67, 67);
+}
+
+header {
+    padding: 1em;
+    margin-top: 1em;
+    margin-left: 6.5em;
+    margin-right: 6.5em;
+    background-color: rgb(97, 48, 64);
+    color: whitesmoke;
+    font-family: "nanum myeon", "lucinda sans";
+    font-size: 35pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px black;
+   
+    
+    border-radius: 25px;
+    box-shadow: 3px 3px 7px black;
+}
+img {
+    position: absolute;
+    left: 53%;
+    top:90px;
+    z-index: 0;
+    height: 300px;
+    box-shadow: 5px 4px 5px black;
+    border-radius: 25px;
+}
+
+.center {
+    position: relative;
+    margin-left: 25%;
+    font-weight: bold;
+}
+
+.center a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+h1 {
+    font-size: 20pt;
+   text-decoration: underline; 
+}
+
+
+footer {
+    padding: 1em;
+    margin-top: 4em;
+    margin-left: 16.4em;
+    margin-right: 16.4em;
+    background-color: rgb(97, 48, 64);
+    font-family: "nanum myeon", "lucinda sans";
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 3px 3px 7px black;
+    word-spacing: 5pt;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
