@@ -32,6 +32,8 @@ img {
     position: relative;
     margin-left: 25%;
     font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
 }
 
 .center a {
@@ -63,6 +65,7 @@ footer {
     border-radius: 25px;
     box-shadow: 3px 3px 7px black;
     word-spacing: 5pt;
+    color: whitesmoke;
 }
 
 footer a {
