@@ -6,25 +6,35 @@
   body {
       font-family: verdana;
       font-size: 16px;
+      background-color: rgb(240, 214, 190);
   }
 
   /* header rules here */
   header {
-      background-color: #17a8e4;
+      background-color: #683811;
       padding: 1rem 2%;
   }
 
   header h1 {
     margin: 0;
+    color: whitesmoke;
   }
+
+  header h1 {
+    text-align: center;
+}
 
   header h2 {
     margin: 0;
-  }
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    }
 
   /* navigation rules here */
   nav {
-      background-color: #111;
+      background-color: rgb(31, 82, 54);
   }
   nav ul {
       margin: 0;
@@ -36,19 +46,19 @@
   }
 
   nav li.active {
-      background-color: #333;
+      background-color: rgb(81, 119, 86);
   }
 
   nav a {
       display: block;
       padding: .8rem 0; /*44 min height*/
-      color: #eee;
+      color: whitesmoke;
       text-align: center;
       text-decoration: none;
   }
 
   nav a:hover{
-      background-color: #444;
+      background-color: rgb(58, 121, 66);
   }
 
   /* main rules here */
@@ -58,7 +68,7 @@
   }
 
   main h1 {
-      color: #17a8e4;
+      color: #683811;
   }
 
   main figure img {
@@ -78,7 +88,8 @@
   footer {
       text-align: center;
       padding: 1rem 2%;
-      background-color: #17a8e4;
+      background-color: #683811;
+      color: whitesmoke;
   }
 
 

@@ -18,6 +18,15 @@ div.news {
     column-rule: 1px solid #ddd;
 }
 
+header h1 {
+    text-align: left;
+}
+
+header h2 {
+    text-align: left;
+    font-size: 18pt;
+}
+
 }
 
 /* end of media query*/
