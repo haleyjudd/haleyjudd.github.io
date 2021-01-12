@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-body {
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');body {
     padding: 0;
     background-color: rgb(70, 67, 67);
 }
@@ -10,7 +10,7 @@ header {
     margin-left: 6.5em;
     margin-right: 6.5em;
     background-color: rgb(97, 48, 64);
-    color: whitesmoke;
+    color: rgb(255, 249, 236);
     font-family: "nanum myeon", "lucinda sans";
     font-size: 35pt;
     font-weight: bold;
@@ -32,18 +32,20 @@ img {
     position: relative;
     margin-left: 25%;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(255, 249, 236);
     text-shadow: 1px 1px 5px black;
+    font-family: "redressed", "sans serif";
+
 }
 
 .center a {
     text-decoration: none;
-    color: whitesmoke;
-    text-shadow: 2px 2px 5px black;
+    color: rgb(255, 249, 236);
+    text-shadow: 3px 3px 3px black;
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 25pt;
    text-decoration: underline; 
 }
 
@@ -65,11 +67,11 @@ footer {
     border-radius: 25px;
     box-shadow: 3px 3px 7px black;
     word-spacing: 5pt;
-    color: whitesmoke;
+    color: rgb(255, 249, 236);
 }
 
 footer a {
-    color: whitesmoke;
+    color: rgb(255, 249, 236);
     text-decoration: none;
     text-shadow: 2px 2px 5px black;
 }
