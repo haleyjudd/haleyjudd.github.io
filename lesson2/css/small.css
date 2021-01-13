@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Yeon+Sung&display=swap');
+
+* { -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box;}
+
+body {
+    margin: 0;
+    background-color: rgb(247, 227, 200);
+    
+}
+
+h1 {
+   /* background-color: gray;*/
+   background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
+    color: whitesmoke;
+    font-family: "yion sung", serif;
+    font-size: 35pt;
+    padding: 1em;
+    text-shadow: 3px 3px 5px black;
+    border-top: solid rgb(0, 0, 0);
+    border-bottom: solid black;
+}
+ 
+h2 {
+    font-family: "open sans condensed", sans-serif;
+    margin: 1em;
+    text-align: left;
+}
+
+#examples {
+    display: grid;
+    padding: 3em;
+    margin: 2em;
+  
+}
+
+#examples a {
+    padding: 1em;
+    font-family: "open sans condensed", sans-serif;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-decoration: none;
+    color: gray;
+}
+
+#examples a:hover {
+    background-color: gray;
+    color: whitesmoke;
+    padding: .5em;
+    box-shadow: 5pt 5pt 7pt gray;
+    transition-duration: .5s;
+}
+
+.thirds, .white, .contrast {
+    background-color: whitesmoke;
+    border: solid gray;
+    box-shadow: 5pt 5pt 7pt gray;
+    margin-bottom: 2em;
+}
+
+
+img{
+    margin: 1em;
+    border: solid gray;
+}
+
+
+figcaption {
+    font-family: "yion sung", serif;
+    font-size: 8pt;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 1em;
+    font-family: "yion sung", serif;
+    font-size: 15pt;
+    
+}
+
+.name {
+    Text-align: center;
+    font-family: "yion sung", serif;
+    font-size: 24pt;
+    padding: 0;
+}
+
+footer p{
+    background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
+    color: whitesmoke;
+    font-family: "yion sung", serif;
+    padding: 1.5em;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin-bottom: 2em;
+    font-size: 10pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+
+}
+.clearfix:after {
+    content: "";
+    display: table; 
+    clear: both;
+}

@@ -1,0 +1,21 @@
+@media only screen and (min-width: 560px){
+
+h1{
+    font-size: 27pt;
+    
+}
+
+#examples {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 3em;
+    margin: 2em;
+    grid-column-gap: 50px;
+}
+
+
+
+
+
+
+}
