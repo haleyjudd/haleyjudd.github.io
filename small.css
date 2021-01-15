@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
 body {
     padding: 0;
     background-color: rgb(70, 67, 67);
@@ -7,9 +6,8 @@ body {
 
 header {
     padding: .5em;
-    margin-top: 1em;
-    margin-left: 6.5em;
-    margin-right: 6.5em;
+    margin-top: 5.5em;
+    text-align: center;
     background-color: rgb(97, 48, 64);
     color: rgb(255, 249, 236);
     font-family: "nanum myeon", "lucinda sans";
@@ -21,23 +19,23 @@ header {
 }
 img {
     position: absolute;
-    left: 60%;
-    top:90px;
-    z-index: 0;
-    height: 200px;
+    top: .5em;
+    right: 27%;
+    width: 47%;
     box-shadow: 5px 4px 5px black;
-    border-radius: 25px;
+    border-radius: 25%;
 }
 
 .center {
     position: relative;
-    margin-left: 25%;
+    margin-left: 5%;
     font-weight: bold;
     color: rgb(255, 249, 236);
     text-shadow: 1px 1px 5px black;
     font-family: "josefin sans", "sans serif";
 
 }
+
 
 .center a {
     text-decoration: none;
@@ -46,23 +44,23 @@ img {
 }
 
 h1 {
-    font-size: 25pt;
+    font-size: 21pt;
    text-decoration: underline; 
 }
 
 .center li {
-    font-size: 15pt;
+    font-size: 12pt;
 }
+
 
 
 footer {
     padding: .5em;
     margin-top: 4em;
-    margin-left: 19.2em;
-    margin-right: 19.2em;
+    text-align: center;
     background-color: rgb(97, 48, 64);
     font-family: "nanum myeon", "lucinda sans";
-    font-size: 12pt;
+    font-size: 8pt;
     font-weight: bold;
     text-align: center;
     border-radius: 25px;
