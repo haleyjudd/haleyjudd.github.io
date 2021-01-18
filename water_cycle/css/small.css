@@ -15,7 +15,9 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: .5rem 2%;
-    background-color: #ddd;
+    background-color: rgb(255, 240, 106);
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
 }
 
 header img{
@@ -26,6 +28,7 @@ header img{
 }
 header h1 {margin: 0;
     font-size: 1.3rem;
+    text-shadow: 1px 1px 3px rgb(122, 145, 243)
 }
 header h2 {
     margin: 0; 
@@ -34,7 +37,10 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
 }
 nav ul {
     list-style-type: none;
@@ -53,12 +59,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #aaa;
+    background-color: rgb(122, 145, 243);
     color: #333;
 }
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color:  rgb(255, 240, 106);
+    color: black;
 }
 /*----------- MAIN --------------*/
 main {
@@ -69,9 +75,11 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color:rgb(255, 240, 106);
     padding: .5rem 2%;
     text-align: center;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 5px;
 }
 
 
