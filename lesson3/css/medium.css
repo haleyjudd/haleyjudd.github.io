@@ -1,0 +1,90 @@
+@media only screen and (min-width: 37.5em){
+	/* Horizontal Menu Examples */
+	/* Flex *********************/
+nav ul { 
+    display: flex; }
+nav ul li {
+     flex: 1 1 100%; }
+	
+	/* Grid *********************/
+nav ul { 
+	grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    }  
+#maincont {
+    margin: 1rem 2%;
+    width: 94%;
+    display: flex;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32); 
+    grid-template-columns: auto;
+    padding: 2em 3em;
+        /*margin: 3em;*/
+    grid-column-gap: 50px;
+    
+}
+
+h2 {
+    text-align: left;
+}
+.logo img { 
+    width: 250px;
+    margin-left: 1rem;
+}
+ /*Persona*/   
+.personas {
+    display: flex;
+    margin: 1rem 2%;
+    width: 96%;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+}
+.one img, .two img {
+    margin-left: 4rem;
+    width: 250px;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+    border-radius: 50%;
+}
+/*Color*/
+.logo {
+    width: 300px;
+}
+.colors {
+    display: inline-flex;
+    margin: .5rem .3rem 2%;
+    padding: 1rem;
+    width: 95%;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+
+}   
+
+.lightblue {
+    background-color: rgb(154, 154, 255);
+    margin: 1rem 0;
+}
+.white {
+    background-color: white;
+    margin: 1rem 0;
+}
+.red {
+    background-color: red;
+    margin: 1rem 0;
+}
+.purple {
+    background-color: purple;
+    margin: 1rem 0;
+}
+.blue {
+    background-color:blue;
+    margin: 1rem 0;
+}
+.green {
+    background-color:green;
+    margin: 1rem 0;
+}
+.orange {
+    background-color:orange;
+    margin: 1rem 0;
+}
+.yellow {
+    background-color: yellow;
+    margin: 1rem 0;
+}    
+}

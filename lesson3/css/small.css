@@ -1,0 +1,214 @@
+*{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+    background-color: wheat;
+    padding: 1rem;
+}
+
+nav {
+	background-color: rgb(71, 21, 32);
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: wheat;
+	text-align: center;
+	padding: 0.60rem;
+	text-decoration: none;
+    font-size: 15pt;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav a:hover {
+    color: wheat;
+    border: solid wheat;
+}
+.active {
+    background-color:rgb(211, 115, 86);
+    color: wheat;
+}
+header {
+    padding: 2rem;
+    background-color: rgb(71, 21, 32);
+    box-shadow: 2px 2px 7px black;
+    border-radius: .7%;
+    text-align: center;
+   
+}
+
+header h1 {
+    margin-bottom: .5rem;
+}
+
+.mainh {
+    font-size: 30pt;
+    margin: .3rem;
+    font-family: 'Lobster', cursive;
+}
+
+h1 {
+    font-size: 25pt;
+    color: rgb(211, 115, 86);
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+    margin: 1rem;
+    text-align: center;
+}
+
+p {
+    margin: 1rem;
+    font-size: 15pt;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+footer {
+    padding: 1rem;
+    background-color:rgb(71, 21, 32);
+    color: wheat;
+    border-radius: .7%;
+    text-align: center;
+    box-shadow: 2px 2px 7px black;
+}
+
+footer a {
+    color: wheat;
+}
+/*Site purpose page*/
+#maincont {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 3em;
+    margin: .5em;
+    grid-column-gap: 50px;
+    } 
+
+.domain p {
+    margin-top: .3rem;
+}
+.logo img { 
+    width: 150px;
+    margin-left: 4rem;
+}
+
+/*Target Audience page*/
+
+.personas {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 3em;
+    margin: .5em;
+    grid-column-gap: 50px;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+}
+
+.scene {
+    margin: 2rem;
+    padding: 2rem;
+    line-height: 1.5rem;;
+
+}
+.scene li {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18pt;
+}
+
+h3 {
+    margin: .5rem;
+}
+
+.one img, .two img {
+    margin-left: 4rem;
+    width: 150px;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+    border-radius: 50%;
+}
+
+/*Color-Scheme page*/
+.logo {
+    background-color: rgb(154, 154, 255);
+    width: 75%;
+    margin: 2.5rem;
+    padding: .7rem 0;
+}
+
+.lightblue {
+    background-color: rgb(154, 154, 255);
+}
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.purple {
+    background-color: purple;
+}
+.blue {
+    background-color:blue;
+}
+.green {
+    background-color:green;
+}
+.orange {
+    background-color:orange;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 3em;
+    margin: 1rem;
+    grid-column-gap: 30px;
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+}
+.colors p {
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+/*Typography page*/
+.sigmar {
+    color: red;
+    font-family: "sigmar one";
+    margin-left: 1rem;
+    font-size: 21pt;
+}
+
+.love {
+    font-family: "love ya like a sister";
+    margin-left: 1rem;
+    font-size: 18pt;
+}
+
+.font {
+
+    box-shadow: 1px 5px 15px rgb(71, 21, 32);
+}
+
+.clearfix:after {
+    content: "";
+    display: table; 
+    clear: both;
+}
