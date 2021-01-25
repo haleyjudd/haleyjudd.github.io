@@ -34,9 +34,9 @@ nav a:hover {
     color: wheat;
     border: solid wheat;
 }
-.active {
+.active a{
     background-color:rgb(211, 115, 86);
-    color: wheat;
+    color: rgb(71, 21, 32);
 }
 header {
     padding: 2rem;
@@ -58,16 +58,16 @@ header h1 {
 
 h2 {
     font-size: 25pt;
-    color: rgb(211, 115, 86);
+    color: rgb(71, 21, 32);
     margin-left: 1rem;
     margin-top: 1.5rem;
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 3px wheat;
     font-family: 'Lobster', cursive;
     text-align: center;
 }
 
 h3 {
-    color: brown;
+    color: rgb(71, 21, 32);
     margin: 1rem;
     text-align: center;
 }
@@ -135,7 +135,7 @@ h3 {
 
 .one img, .two img {
     margin-left: 4rem;
-    width: 150px;
+    width: 100px;
     box-shadow: 1px 5px 15px rgb(71, 21, 32);
     border-radius: 50%;
 }
