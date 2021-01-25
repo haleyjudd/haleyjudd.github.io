@@ -102,9 +102,10 @@ footer a {
 .domain p {
     margin-top: .3rem;
 }
-.logo { 
-    width: 150px;
-    margin-left: 4rem;
+.logo1 img{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
 }
 
 /*Target Audience page*/
@@ -112,7 +113,7 @@ footer a {
 .personas {
     display: grid;
     grid-template-columns: auto;
-    padding: 0 3em;
+  
     margin: .5em;
     grid-column-gap: 50px;
     box-shadow: 1px 5px 15px rgb(71, 21, 32);
@@ -124,14 +125,14 @@ footer a {
     line-height: 1.5rem;;
 
 }
+.scene h2 {
+    margin-bottom: 1rem;
+}
 .scene li {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 18pt;
 }
 
-h3 {
-    margin: .5rem;
-}
 
 .one img, .two img {
     margin-left: 4rem;
@@ -144,7 +145,9 @@ h3 {
 .logo {
     background-color: rgb(154, 154, 255);
     width: 75%;
-    margin: 2.5rem;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: .7rem 0;
 }
 
@@ -190,16 +193,15 @@ h3 {
 
 /*Typography page*/
 .sigmar {
-    color: red;
     font-family: "sigmar one";
     margin-left: 1rem;
-    font-size: 21pt;
+    font-size: 15pt;
 }
 
 .love {
     font-family: "love ya like a sister";
     margin-left: 1rem;
-    font-size: 18pt;
+    font-size: 12pt;
 }
 
 .font {

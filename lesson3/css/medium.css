@@ -1,5 +1,5 @@
 @media only screen and (min-width: 37.5em){
-	/* Horizontal Menu Examples */
+
 	/* Flex *********************/
 nav ul { 
     display: flex; }
@@ -17,21 +17,21 @@ nav ul {
     box-shadow: 1px 5px 15px rgb(71, 21, 32); 
     grid-template-columns: auto;
     padding: 2em 3em;
-        /*margin: 3em;*/
-    grid-column-gap: 50px;
-    
+    grid-column-gap: 50px; 
 }
 
 h2 {
     text-align: left;
 }
-.logo img { 
-    width: 200px;
-    margin-left: 1rem;
+.logo1 img{ 
+    display: flex;
+    flex-direction: column;
+    width: 150px;
 }
  /*Persona*/   
 .personas {
     display: flex;
+    flex-direction: column;
     margin: 1rem 2%;
     width: 96%;
     box-shadow: 1px 5px 15px rgb(71, 21, 32);
@@ -42,12 +42,34 @@ h2 {
     box-shadow: 1px 5px 15px rgb(71, 21, 32);
     border-radius: 50%;
 }
+.scene {
+
+    display: flex;
+}
+
+.scene h2 {
+    margin-bottom: 1rem;
+}
+/*Typogrophy*/
+.sigmar {
+    margin-left: 1rem;
+    font-size: 18pt;
+}
+
+.love {
+    margin-left: 1rem;
+    font-size: 15pt;
+}
 /*Color*/
 .logo {
-    width: 300px;
+    background-color: rgb(154, 154, 255);
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .7rem 0;
 }
 .colors {
-    display: inline-flex;
     margin: .5rem .3rem 2%;
     padding: 1rem;
     width: 95%;
