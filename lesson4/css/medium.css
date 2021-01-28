@@ -3,17 +3,21 @@
     header img {
         position: absolute;
         display: inline;
-        width: 21%;
+        width: 15%;
         margin: 1rem 0 0 1rem;
       }
       
     header h1 {
         display:block;
       font-size: 25pt;
+      text-align: left;
+      margin-left: 10rem;
+
     }
     
     header h3 {
-      font-size: 16pt;
+      font-size: 12pt;
+      margin-left: -7rem;
     }
     /*nav*/
     nav ul {

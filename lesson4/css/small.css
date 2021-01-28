@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-    background-color: rgb(185, 185, 250);
+    background-color: rgb(228, 228, 253);
 }
 
 header {
@@ -18,11 +18,12 @@ header img {
   display: inline;
   width: 45%;
   margin: 1rem 8.3rem;
+
 }
   
 header h1 {
   display: none;
-  color: blue;
+  color: #A0C4FF;
   text-align: center;
   font-family: "sigmar one";
   font-size: 15pt;
@@ -68,7 +69,7 @@ nav ul li a {
 }
 */
 #red {
-  background-color: red;
+  background-color: #FFADAD;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -76,7 +77,7 @@ nav ul li a {
 }
  
 #orange {
-  background-color: orange;
+  background-color:#FFD6A5;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -84,7 +85,7 @@ nav ul li a {
 }
 
 #yellow {
-  background-color: yellow;
+  background-color:#FDFFB6;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -92,7 +93,7 @@ nav ul li a {
 }
 
 #green {
-  background-color: green;
+  background-color: #CAFFBF;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -100,7 +101,7 @@ nav ul li a {
 }
 
 #blue {
-  background-color: blue;
+  background-color:#A0C4FF;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -108,7 +109,7 @@ nav ul li a {
 }
 
 #purple {
-  background-color: purple;
+  background-color: #BDB2FF;
   text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
@@ -119,8 +120,8 @@ nav ul li a {
   background-color: red;
   color: white;
   text-shadow: 1px 1px 2px black;
-
 }
+
 #orange:hover {
   background-color: orange;
   color: white;
@@ -201,7 +202,7 @@ nav ul li a {
 }
 */
 button {
-  background-color: orange;
+  background-color: #FFADAD;
   color: white;
   width: 2rem;
   margin-left: 14.5rem;
