@@ -21,13 +21,11 @@ text-align: center;
 font-family: "love ya like a sister";
 font-size: 18pt;
 }
-/*nav*/
-  
+/*nav*/ 
 
 nav ul li {
   padding: .5rem 3.53rem;
 }
-
 
 .cont1, .cont2 {
   margin-left: 5rem;

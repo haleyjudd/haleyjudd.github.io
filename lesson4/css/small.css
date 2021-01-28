@@ -38,7 +38,7 @@ header h3 {
 /*navigation
 */
 nav {
-  background-color: black;
+  background-color: white;
   box-shadow: 3px 3px 5px gray;
   border-radius: 2px;
 }
@@ -58,6 +58,7 @@ nav ul li a {
   font-size: .9rem;
   text-align: center;
 }
+/*
 #red, #orange, #yellow, #green, #blue, #purple {
   color: white;
   text-shadow: 1px 1px 2px black;
@@ -65,83 +66,140 @@ nav ul li a {
   font-size: 14pt;
   text-align: center;
 }
- /*
+*/
+#red {
+  background-color: red;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+ 
 #orange {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  background-color: orange;
+  text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
 }
 
 #yellow {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  background-color: yellow;
+  text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
 }
 
 #green {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  background-color: green;
+  text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
 }
 
 #blue {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  background-color: blue;
+  text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
 }
 
 #purple {
-  color: white;
-  text-shadow: 1px 1px 2px black;
+  background-color: purple;
+  text-shadow: 1px 1px 2px white;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
 }
-*/
+
 #red:hover {
   background-color: red;
   color: white;
+  text-shadow: 1px 1px 2px black;
 
 }
 #orange:hover {
   background-color: orange;
   color: white;
+  text-shadow: 1px 1px 2px black;
 
 }
 #yellow:hover {
     background-color: yellow;
     color: white;
+    text-shadow: 1px 1px 2px black;
 
 }
 #green:hover {
   background-color: green;
   color: white;
+  text-shadow: 1px 1px 2px black;
   
 
 }
 #blue:hover {
   background-color: blue;
   color: white;
+  text-shadow: 1px 1px 2px black;
 
 }
 #purple:hover {
     background-color:  purple;
     color: white;
+    text-shadow: 1px 1px 2px black;
 
 }
+
 .active {
-    background-color:rgb(185, 185, 250);
-    color: black;
+  background-color: black;
 }
 
+/*
+#red.active {
+  background-color: white;
+  color: red;
+  padding: .5rem 3rem;
+  border: .5rem solid black;
+}
+
+#orange.active {
+    background-color: white;
+    color: orange;
+    padding: .5rem 3rem;
+    border: .5rem solid black;
+}
+
+#yellow.active {
+  background-color: white;
+  color: yellow;
+  padding: .5rem 3rem;
+  border: .5rem solid black;
+}
+
+#green.active {
+  background-color: white;
+  color: green;
+  padding: .5rem 3rem;
+  border: .5rem solid black;
+}
+
+#blue.active {
+  background-color: white;
+  color: blue;
+  padding: .5rem 3rem;
+  border: .5rem solid black;
+}
+
+#purple.active {
+  background-color: white;
+  color: purple;
+  padding: .5rem 3rem;
+  border: .5rem solid black;
+}
+*/
 button {
   background-color: orange;
   color: white;

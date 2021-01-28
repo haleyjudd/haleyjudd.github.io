@@ -1,8 +1,9 @@
+/*Menu buttom*/
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
 
-// toLocaleDateString
+/*Dynamic date*/
 const daynames = [
     "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
 ];
