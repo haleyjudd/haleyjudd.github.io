@@ -38,7 +38,7 @@ header h3 {
 /*navigation
 */
 nav {
-  background-color: black;
+  background-color: rgb(61, 61, 61);
   box-shadow: 3px 3px 5px gray;
   border-radius: 2px;
 }
@@ -58,60 +58,54 @@ nav ul li a {
   font-size: .9rem;
   text-align: center;
 }
-#red {
-  color: red;
- text-shadow: 1px 1px 2px black;
+#red, #orange, #yellow, #green, #blue, #purple {
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
- 
+ /*
 #orange {
-  color: orange;
- text-shadow: 1px 1px 2px black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
 
 #yellow {
-  color: yellow;
- text-shadow: 1px 1px 2px black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
 
 #green {
-  color: green;
- text-shadow: 1px 1px 2px black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
 
 #blue {
-  color: blue;
- text-shadow: 1px 1px 2px black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
 
 #purple {
-  color: purple;
- text-shadow: 1px 1px 2px black;
+  color: white;
+  text-shadow: 1px 1px 2px black;
   font-family: "sigmar one", sans serif;
   font-size: 14pt;
   text-align: center;
-
 }
-
+*/
 #red:hover {
   background-color: red;
   color: white;
@@ -139,14 +133,13 @@ nav ul li a {
 
 }
 #purple:hover {
-
     background-color:  purple;
     color: white;
 
 }
 .active {
-    background-color: white;
-
+    background-color: blue;
+    color: black;
 }
 
 button {
