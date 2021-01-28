@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Webpage Preston Weather Site" content="Class assignments">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noah's Forecast-Preston</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister%7cSigmar+One&display=swap"/>
+    <link rel="stylesheet" href="../../normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/small.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/medium.css"type="text/css"/>
+    <link rel="stylesheet" href="../css/large.css"type="text/css"/>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Logo">
+        <h1>Noah's Forecast</h1>
+        <h3>Because weather's not just for old men!</h3>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+          <li id="red" >Home<a href="#" target="_blank"></a></li>
+            <li id="orange" class="active">Preston<a href="#" target="_blank"></a></li>
+            <li id="yellow">Soda Springs<a href="#" target="_blank"></a></li>
+            <li id="green">Fish Haven<a href="#" target="_blank"></a></li>
+            <li id="blue">Storm Center<a href="#" target="_blank"></a></li>
+            <li id="purple">Gallery<a href="#" target="_blank"></a></li>
+        </ul>
+    </nav>
+    <main>
+      <h2>Preston, Idaho</h2>
+      <div id="containerP">
+        <div class="cont1">
+          <div class="place1">Hero Image</div>
+          <div class="place2"><h3>Weather Summary</h3>
+          <p>This is where the weather summary will be
+            displayed. I hope that it will be helpful
+            to anyone who needs to know what to expect.
+          </p>
+          </div>
+        </div>
+         <div class="cont2">
+           <h2>Five Day Forecast</h2>
+           <div class="place3"><h3>Article Title</h3>
+          <p>This section will inform viewers about other
+            aspects of the weather that they should be aware
+            of. 
+          </p>
+          </div>
+           <div class="place4">Image</div>
+         </div>
+      </div>  
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 | Haley Judd | New York |
+        <br>
+        <span id="currentdate"></span>
+      </p>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="js/currentdate.js"></script>
+</body>
+</html>

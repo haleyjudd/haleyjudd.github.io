@@ -1,0 +1,230 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: rgb(185, 185, 250);
+}
+
+header {
+  background-color: white;
+  padding: .5rem;
+}
+
+header img {
+  display: inline;
+  width: 45%;
+  margin: 1rem 8.3rem;
+}
+  
+header h1 {
+  display: none;
+  color: orange;
+  text-align: center;
+  font-family: "sigmar one";
+  font-size: 15pt;
+  text-shadow: 1px 2px 3px black;
+}
+
+header h3 {
+  padding-bottom: 1rem;
+  text-align: center;
+  font-family: "love ya like a sister";
+  font-size: 10pt;
+}
+/*navigation
+*/
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 2px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: .5rem;
+}
+nav ul li a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  font-size: .9rem;
+  text-align: center;
+}
+#red {
+  color: red;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+ 
+#orange {
+  color: orange;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+
+#yellow {
+  color: yellow;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+
+#green {
+  color: green;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+
+#blue {
+  color: blue;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+
+#purple {
+  color: purple;
+ text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+
+}
+
+#red:hover {
+  background-color: red;
+  color: white;
+
+}
+#orange:hover {
+  background-color: orange;
+  color: white;
+
+}
+#yellow:hover {
+    background-color: yellow;
+    color: white;
+
+}
+#green:hover {
+  background-color: green;
+  color: white;
+  
+
+}
+#blue:hover {
+  background-color: blue;
+  color: white;
+
+}
+#purple:hover {
+
+    background-color:  purple;
+    color: white;
+
+}
+.active {
+    background-color: rgb(185, 185, 250);
+
+}
+
+button {
+  background-color: orange;
+  color: white;
+  width: 2rem;
+  margin-left: 14.5rem;
+  padding: .3rem;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+
+/*main content*/
+/*
+.cont1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.cont2 {
+  display: flex;
+  flex-direction: row;
+}
+*/
+.place1 {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: 2.5pt solid green;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+
+h2 {
+  color: yellow;
+  margin: 1rem;
+  text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one";
+}
+.place2 {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: 2.5pt solid red;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+.place3 {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: 2.5pt solid blue;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+.place4 {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: white;
+  border: 2.5pt solid purple;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+
+
+footer {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1%;
+    box-shadow: 2px 2px 7px black;
+    font-family: "love ya like a sister";
+    text-align: center;
+}
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
