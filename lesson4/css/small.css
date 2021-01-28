@@ -38,7 +38,7 @@ header h3 {
 /*navigation
 */
 nav {
-  background-color: rgb(61, 61, 61);
+  background-color: black;
   box-shadow: 3px 3px 5px gray;
   border-radius: 2px;
 }
@@ -138,7 +138,7 @@ nav ul li a {
 
 }
 .active {
-    background-color: blue;
+    background-color:rgb(185, 185, 250);
     color: black;
 }
 
@@ -177,9 +177,9 @@ nav ul.hide {
 }
 
 h2 {
-  color: red;
+  color: purple;
   margin: 1rem;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: .5px .5px 1px white;
   font-family: "sigmar one";
 }
 .place2 {
