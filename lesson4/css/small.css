@@ -38,7 +38,7 @@ header h3 {
 /*navigation
 */
 nav {
-  background-color: white;
+  background-color: black;
   box-shadow: 3px 3px 5px gray;
   border-radius: 2px;
 }
@@ -145,7 +145,7 @@ nav ul li a {
 
 }
 .active {
-    background-color: rgb(185, 185, 250);
+    background-color: white;
 
 }
 
