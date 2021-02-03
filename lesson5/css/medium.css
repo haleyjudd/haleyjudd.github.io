@@ -84,10 +84,10 @@
   section.forecast div h5 {
     margin: 0;
     padding: 1rem;
-    color: orange;
+    color: red;
     font-size: 12pt;
     font-family: "love ya like a sister";
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 2px black;
   }
 
 
