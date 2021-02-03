@@ -1,0 +1,75 @@
+@media only screen and (min-width: 64rem) {
+
+
+  
+header img {
+  position: absolute;
+  display: inline;
+  width: 20%;
+  margin: -2rem 0;
+  padding: 3rem;
+}
+
+header h1 {
+text-align: left;
+margin-left: 16rem;
+font-family: "sigmar one";
+font-size: 35pt;
+text-shadow: 1px 2px 3px black;
+}
+
+header h3 {
+  margin-left: -22rem;
+padding-bottom: 1rem;
+text-align: center;
+font-family: "love ya like a sister";
+font-size: 18pt;
+}
+
+/*nav*/ 
+
+nav ul li {
+  padding: .5rem 3.53rem;
+}
+
+/*main*/
+
+#message {
+  margin-top: -20rem;
+  font-size: 15pt;
+}
+
+.cont1 {
+  position: relative;
+ }
+
+.place2 {
+  position: absolute;
+  width: 30%;
+  margin-left: 4rem;
+  margin-top: -40rem;
+  background-color: white;
+  border: 2.5pt solid red;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+
+
+section.forecast div {
+  margin: .5rem;
+
+}
+
+.cont1, .cont2 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+
+
+
+
+
+
+
+}

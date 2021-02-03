@@ -1,0 +1,100 @@
+@media only screen and (min-width: 35rem) {
+/*
+  header {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  */
+    header img {
+        position: absolute;
+        display: inline;
+        width: 15%;
+        margin: 1rem 0 0 1rem;
+      }
+      
+    header h1 {
+        display:block;
+        text-align: center;
+      font-size: 25pt;
+      text-align: left;
+      margin-left: 10rem;
+
+    }
+    
+    header h3 {
+      font-size: 12pt;
+      text-align: center;
+      margin-left: -7rem;
+    }
+    /*nav*/
+    /*nav {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+*/
+    nav ul {
+        display: flex;
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+      }
+      nav ul li {
+        padding: .5rem 1rem;
+      }
+      
+      nav ul li a {
+          display: inline-block;
+      
+      }
+
+      nav ul.hide{
+        display: flex;
+      }
+  
+    nav button {
+      display: none;
+  }
+
+  /*main*/
+
+  #message {
+    margin-top: -17rem;
+    font-size: 12pt;
+   
+  }
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .forecast img {
+    max-width: 100%;
+  }
+
+  section.forecast div {
+    margin: 0;
+    text-align: center;
+    border: 2.5pt solid purple;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+
+  }
+
+  section.forecast div h5 {
+    margin: 0;
+    padding: 1rem;
+    color: orange;
+    font-size: 12pt;
+    font-family: "love ya like a sister";
+    text-shadow: 1px 1px 3px black;
+  }
+
+
+  /*
+  footer {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  */
+}
