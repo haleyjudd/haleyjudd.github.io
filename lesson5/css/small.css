@@ -10,8 +10,6 @@ html {
 }
 body {
     background-color: rgb(228, 228, 253);
-
-
 }
 
 header {
@@ -30,15 +28,16 @@ header h1 {
   color: blue;
   margin-left: 3rem;
   font-family: "sigmar one";
-  font-size: 20pt;
+  font-size: 15pt;
   text-shadow: 2px 3px 4px black;
 }
 
-header h3 {
+header h2 {
+  color: black;
   padding-bottom: 1rem;
   margin-left: 3rem;
   font-family: "love ya like a sister";
-  font-size: 10pt;
+  font-size: 8pt;
 }
 /*navigation
 */
@@ -166,7 +165,6 @@ button {
   background-color: #FFADAD;
   color: white;
   width: 2rem;
-  margin-left: 14.5rem;
   padding: .3rem;
 }
 
@@ -180,7 +178,7 @@ nav ul.hide {
 #message {
   position: absolute;
   width: 100%;
-  margin-top: -20rem;
+  margin-top: -17rem;
   padding: 1rem;
   background-color: white;
   border: 1pt solid yellow;
@@ -219,27 +217,48 @@ div.hideme {
 
 .pageTitle {
   color: purple;
-  margin-left: 2.5rem;
+  margin-left: 0;
   padding: 1rem;
   text-shadow: .5px .5px 1px white;
   font-family: "sigmar one";
 }
 
-h2 {
+.cont2 h2 {
   color: purple;
-  margin: 1rem;
+  margin-left: 5.3rem;
   padding: 1rem;
   text-shadow: .5px .5px 1px white;
   font-family: "sigmar one";
 }
+
+.cont2 p {
+  font-family: "love ya like a sister";
+  font-size: 15pt;
+
+}
+
 .place2 {
   margin: 1rem;
   padding: 1rem;
   background-color: white;
   border: 2.5pt solid orange;
   box-shadow: 2px 2px 5px black;
+  font-size: 15pt;
   font-family: "love ya like a sister";
 }
+
+.place2 h3, p {
+  text-align: center;
+}
+
+.place3 h2 {
+  margin-left: -1rem;
+}
+
+.cont2 h2 {
+  margin-left: 0;
+}
+/*
 .place3 {
   margin: 1rem;
   padding: 1.5rem;
@@ -248,12 +267,12 @@ h2 {
   box-shadow: 2px 2px 5px black;
   font-family: "love ya like a sister";
 }
-
+*/
 section.forecast {
   display: none;
 }
 
-.place4 {
+.place3 {
   margin: 1rem;
   padding: 1rem;
   background-color: white;
@@ -261,8 +280,32 @@ section.forecast {
   box-shadow: 2px 2px 5px black;
   font-family: "love ya like a sister";
 }
-.place4 img {
+.place3 img {
   width: 100%;
+}
+
+.bottom {
+  margin: 2rem 1rem;;
+  background-color: white;
+  border: 2.5pt solid blue;
+  padding: .5rem;
+  box-shadow: 2px 2px 5px black;
+}
+
+.bottom img {
+  margin: 1rem 0 .5rem 8rem;
+}
+
+.address {
+  margin-left: .5rem;
+}
+
+.address h2 {
+  margin-left: -1rem;
+}
+
+.contact p {
+  margin-top: 4rem;
 }
 
 footer {
