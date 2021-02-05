@@ -57,9 +57,8 @@
   /*main*/
 
   #message {
-    margin-top: -17rem;
+    top: 1rem;
     font-size: 12pt;
-   
   }
 
 .pageTitle {
@@ -111,11 +110,15 @@
   margin-left: -1rem;
 }
 
-  .place3 img {
-    width: 40%;
-    float: right;
+.place3 img {
+  width: 40%;
+  float: right;
   }
-
+/*
+.hide {
+  display: none;
+}  
+*/
   .bottom {
     margin: 1rem;
   }

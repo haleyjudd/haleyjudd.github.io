@@ -26,7 +26,7 @@ header img {
   
 header h1 {
   color: blue;
-  margin-left: 3rem;
+  margin-left: 1rem;
   font-family: "sigmar one";
   font-size: 15pt;
   text-shadow: 2px 3px 4px black;
@@ -35,7 +35,7 @@ header h1 {
 header h2 {
   color: black;
   padding-bottom: 1rem;
-  margin-left: 3rem;
+  margin-left: 1rem;
   font-family: "love ya like a sister";
   font-size: 8pt;
 }
@@ -177,8 +177,8 @@ nav ul.hide {
 
 #message {
   position: absolute;
+  top: 1rem;
   width: 100%;
-  margin-top: -17rem;
   padding: 1rem;
   background-color: white;
   border: 1pt solid yellow;
@@ -213,6 +213,7 @@ div.hideme {
 
 .place1 img {
   width: 100%;
+  height: auto;
 }
 
 .pageTitle {
@@ -282,6 +283,7 @@ section.forecast {
 }
 .place3 img {
   width: 100%;
+  height: auto;
 }
 
 .bottom {
@@ -315,6 +317,7 @@ footer {
     box-shadow: 2px 2px 7px black;
     font-family: "love ya like a sister";
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 footer a {
