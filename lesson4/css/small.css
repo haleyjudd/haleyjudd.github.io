@@ -16,7 +16,8 @@ header {
 
 header img {
   display: inline;
-  width: 45%;
+  max-width: 15em;
+  height: auto;
   margin: 1rem 8.3rem;
 
 }
