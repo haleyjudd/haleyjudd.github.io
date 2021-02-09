@@ -310,6 +310,10 @@ section.forecast {
   margin-top: 4rem;
 }
 
+.bottom img {
+  display: none;
+}
+
 footer {
     background-color: white;
     padding: 1rem;

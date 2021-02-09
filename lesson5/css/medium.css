@@ -1,10 +1,9 @@
-@media only screen and (min-width: 35rem) {
-/*
+@media only screen and (min-width: 44rem) {
+
   header {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    max-width: 100%;
   }
-  */
+  
     header img {
         position: absolute;
         display: inline;
@@ -26,11 +25,10 @@
       margin-left: 9rem;
     }
     /*nav*/
-    /*nav {
-      margin-left: 3rem;
-      margin-right: 3rem;
+    nav {
+      max-width: 100%;
     }
-*/
+
     nav ul {
         display: flex;
           list-style-type: none;
@@ -124,6 +122,7 @@
   }
 
   .bottom img {
+    display: block;
     margin: 1rem 0 .5rem 2rem;
   }
 
@@ -141,10 +140,9 @@
     margin-left: 1rem;
   }
 
-  /*
+  
   footer {
-    margin-left: 3rem;
-    margin-right: 3rem;
+    max-width: 100%;
   }
-  */
+  
 }
