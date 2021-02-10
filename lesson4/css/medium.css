@@ -47,13 +47,10 @@
     nav button {
       display: none;
   }
-main {
-  max-width: 100%;
-}
-
-footer {
-  max-width: 100%;
-}
+  main, footer {
+    max-width: 75rem; 
+    margin: 0 auto 
+    }
 
 
 }
