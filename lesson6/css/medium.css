@@ -1,0 +1,146 @@
+@media only screen and (min-width: 44rem) {
+
+  header {
+    max-width: 100%;
+  }
+  
+    header img {
+        position: absolute;
+        display: inline;
+        width: 15%;
+        margin: 1rem 0 0 1rem;
+      }
+      
+    header h1 {
+      display:block;
+      text-align: center;
+      font-size: 25pt;
+      text-align: left;
+      margin-left: 9rem;
+
+    }
+    
+    header h2 {
+      font-size: 12pt;
+      margin-left: 9rem;
+    }
+    /*nav*/
+    nav {
+      max-width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+      }
+      nav ul li {
+        padding: .5rem 1rem;
+      }
+      
+      nav ul li a {
+          display: inline-block;
+      
+      }
+
+      nav ul.hide{
+        display: flex;
+      }
+  
+    nav button {
+      display: none;
+  }
+
+  /*main*/
+
+  #message {
+    top: 1rem;
+    font-size: 12pt;
+  }
+
+.pageTitle {
+  margin-left: 0;
+}
+
+
+  .place2 {
+    position: absolute;
+    font-size: 12pt;
+    margin: -22rem 0 0 2rem;
+  }
+
+  .cont2 h2 {
+    margin: 0;
+  }
+
+  section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .forecast img {
+    max-width: 100%;
+  }
+
+  section.forecast div {
+    margin: 0;
+    text-align: center;
+    border: 2.5pt solid purple;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+
+  }
+
+  section.forecast div h5 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 12pt;
+    font-family: "love ya like a sister";
+    text-shadow: 1px 1px 2px gray;
+  }
+
+.place3 h2 {
+  margin-left: -1rem;
+}
+
+.place3 img {
+  width: 40%;
+  float: right;
+  }
+/*
+.hide {
+  display: none;
+}  
+*/
+  .bottom {
+    margin: 1rem;
+  }
+
+  .bottom img {
+    display: block;
+    margin: 1rem 0 .5rem 2rem;
+  }
+
+  section.bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+  }
+
+  .address h2 {
+    margin-left: -1rem;
+  }
+
+  .contact p {
+    margin-top: 5.5rem;
+    margin-left: 1rem;
+  }
+
+  
+  footer {
+    max-width: 100%;
+  }
+  
+}

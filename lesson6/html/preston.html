@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Preston weathersite created by Haley Judd for WDD 230 Winter 2021 semester. Week 5." content="Class assignments">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noah's Forecast-Preston</title>
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../../normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/small.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/medium.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/large.css" type="text/css"/>
+</head>
+<body>
+    <header>
+        <img src="../images/logo2.jpg" alt="Logo">
+        <h1>Noah's Forecast</h1>
+        <h2>Because weather's not just for old men!</h2>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+            <li id="red">Home<a href="#" target="_blank"></a></li>
+            <li id="orange" class="active">Preston<a href="#" target="_blank"></a></li>
+            <li id="yellow">Soda Springs<a href="#" target="_blank"></a></li>
+            <li id="green">Fish Haven<a href="#" target="_blank"></a></li>
+            <li id="blue">Storm Center<a href="#" target="_blank"></a></li>
+            <li id="purple">Gallery<a href="#" target="_blank"></a></li>
+        </ul>
+    </nav>
+    <main>
+      <div id="message" class="showme">Saturday- Preston Pancakes in the Park!
+          9:00 a.m. Saturday at the city park pavilion.</div>
+      <div id="containerP">
+      <h1 class="pageTitle">Preston, Idaho</h1>
+            <picture class="cont1">
+              <source media="(max-width:400px" srcset="../images/franklinOriginal350.jpg">
+              <source media="(max-width:1000px" srcset="../images/franklinOriginal800.jpg">
+              <source media="(max-width:1600px" srcset="../images/franklinOriginal960.jpg">
+              <img src="../images/wdd230_image_franklinOriginal.jpeg" alt="Rainbow with mountains">
+            </picture>
+            <div class="place2"><h3>Weather Summary</h3>
+            <p>Current Temperature: <span id="temp">49</span>&deg;</p>
+          
+             <p> High: 53&deg;
+              <br>
+              Low: 50&deg;
+              <br>
+              <p>Wind Speed: <span id="speed">15</span> mph</p>
+              <p id="chill">message</p>
+            </p>
+          </div>
+        </div>
+         <div class="cont2">
+           <h2>Five Day Forecast</h2>
+            <section class="forecast">
+              <div>
+                <h5>Monday</h5>
+                <img src="../images/rain.jpg" alt="Rain">
+                <p>53&deg;</p>
+              </div>
+              <div>
+                <h5>Tuesday</h5>
+                <img src="../images/rain.jpg" alt="Rain">
+                <p>50&deg;</p>
+              </div>
+              <div>
+                <h5>Wednesday</h5>
+                <img src="../images/wind.jpg" alt="Wind">
+                <p>49&deg;</p>
+              </div>
+              <div>
+                <h5>Thursday</h5>
+                <img src="../images/sun.jpg" alt="Sun">
+                <p>59&deg;</p>
+              </div>
+              <div>
+                <h5>Friday</h5>
+                <img src="../images/sun.jpg" alt="Sun">
+                <p>61&deg;</p>
+              </div>
+             </section>
+            
+           <div class="place3"><h2>Article Title</h2>
+           <img src="../images/rainstorm.jpg" alt="Rainstorm">
+          
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
+          </p>
+          
+         
+          </div>
+          <section class="bottom">
+            
+            <div class="address">
+              <h2>Contact Us</h2>
+              <p><strong>Address:</strong>
+                <br>
+                The Weather Center<br>
+                123 Main Street <br>
+                Franklin, MI 87654
+              </p>
+            </div> 
+            <div class="contact">
+              <p>
+                <strong>Phone:</strong><br>
+                (801)555-1234<br>
+                <strong>Email:</strong> <br>
+                contact@noahsforecast.com
+              </p>
+            </div>
+            <img src="../images/map.jfif" alt="Map of Franklin">
+
+            </section>
+          </div>
+      </div>  
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 | Haley Judd | New York | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        <br>
+        <span id="currentdate"></span>
+      </p>
+    </footer>
+    <script src="../js/script.js"></script>
+    <script src="../js/windchill.js"></script>
+    <script>
+      const today = new Date();
+      console.log(today);
+
+      const dayNumber = today.getDay();
+      console.log (dayNumber);
+
+      const element = document.getElementById("message");
+
+      if (dayNumber == 5) {
+          element.classList.add("showme");
+      }
+      else {
+          element.classList.add("hideme");
+      }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+    WebFont.load({
+      google: {
+        families: [
+           'Sigmar One', 'Love Ya Like A Sister'
+        ]
+      }
+    });
+  </script>
+  <script>
+    const tempNumber = parseFloat(document.getElementById("temp").textContent);
+    const speedNumber = parseFloat(document.getElementById("speed").textContent);
+    let windchill=35.74+(0.6215*tempNumber)-(35.75*Math.pow(speedNumber,0.16))+(0.4275*tempNumber*Math.pow(speedNumber,0.16));
+    windchill = Math.round(windchill);
+
+    if(tempNumber<=50 && speedNumber > 3){
+      document.getElementById("chill").textContent = "Wind Chill:"+windchill+"\xB0F";
+    }
+    else {
+      document.getElementById("chill").textContent = "No wind chill today!";
+    }
+  </script>
+  </body>
+</html>
