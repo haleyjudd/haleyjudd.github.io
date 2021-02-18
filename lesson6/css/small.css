@@ -306,6 +306,22 @@ section.forecast {
   display: none;
 }
 
+/*Gallery page*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  margin: .5rem;
+}
+
 footer {
     background-color: white;
     padding: 1rem;

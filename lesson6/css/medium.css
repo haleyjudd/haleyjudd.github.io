@@ -138,6 +138,14 @@
     margin-left: 1rem;
   }
 
+
+  /*Gallery page*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+}
+
   
   footer {
     max-width: 100%;

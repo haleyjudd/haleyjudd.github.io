@@ -18,12 +18,12 @@ else {
 
 //Font
 WebFont.load({
-    google: {
-      families: [
-         'Sigmar One', 'Love Ya Like A Sister'
-      ]
-    }
-  });
+  google: {
+    families: [
+       'Sigmar One', 'Love Ya Like A Sister'
+    ]
+  }
+});
 
  //Wind chill
   const tempNumber = parseFloat(document.getElementById("temp").textContent);
