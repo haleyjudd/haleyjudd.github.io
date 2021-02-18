@@ -8,6 +8,7 @@ function preloadImage(img) {
     }
 
     img.src = src;
+    img.removeAttribute("data-src");
 }
 
 const imgOptions = {

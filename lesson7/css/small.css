@@ -13,13 +13,13 @@ h1 {
     grid-gap: 15px;
     margin-left: 5rem;
 }
-img[src] {
+img[data-src] {
     filter: blur(0.2em);
   }
 
-img[data-src] {
+img{
     filter: blur(0em);
-    transition-delay: .7s;
+    transition: .2s;
   }  
 
 img {
