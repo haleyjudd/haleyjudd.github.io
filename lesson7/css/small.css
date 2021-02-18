@@ -1,0 +1,30 @@
+body {
+    margin: auto;
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    margin-left: 5rem;
+}
+img[src] {
+    filter: blur(0.2em);
+  }
+
+img[data-src] {
+    filter: blur(0em);
+    transition-delay: .7s;
+  }  
+
+img {
+    box-shadow: 1rem .5rem 1rem gray;
+    margin-bottom: 2rem; 
+}
+
+
