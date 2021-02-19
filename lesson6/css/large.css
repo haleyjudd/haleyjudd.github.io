@@ -137,6 +137,15 @@ section.forecast {
   border: solid 3pt orange;
 }
 
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: .2s;
+}  
+
 
 
 
