@@ -131,7 +131,7 @@ section.forecast {
   margin: 1rem 7rem;
 }
 
-.gallery figure:hover {
+.gallery section:hover {
   background-color: white;
   box-shadow: 1rem .5rem 1rem gray;
   border: solid 3pt orange;
