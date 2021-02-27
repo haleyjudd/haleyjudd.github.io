@@ -251,16 +251,7 @@ div.hideme {
 .cont2 h2 {
   margin-left: 0;
 }
-/*
-.place3 {
-  margin: 1rem;
-  padding: 1.5rem;
-  background-color: white;
-  border: 2.5pt solid blue;
-  box-shadow: 2px 2px 5px black;
-  font-family: "love ya like a sister";
-}
-*/
+
 section.forecast {
   display: none;
 }
@@ -322,6 +313,102 @@ figcaption {
   margin: .5rem;
 }
 
+/*Storm Tracker Page*/
+
+.stormH {
+  margin: 2rem 0 1rem 1rem;
+  color: purple;
+  font-size: 2rem;
+  font-family: "sigmar one";
+}
+form fieldset {
+  width: 75%;
+  margin: 2rem 3rem;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  background-color: white;
+  box-shadow: 1rem 1rem 2rem gray;
+  
+}
+
+form legend {
+  color: green;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: "sigmar one";
+  font-size: 16pt;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: purple;
+  font-size: .8rem;
+  font-family: "love ya like a sister";
+  font-size: 12pt;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px orange;
+  border-radius: 4px;
+  padding: .75rem;
+  color:#555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(228, 228, 253);
+}
+
+.flexly {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  font-family: "love ya like a sister";
+  color: purple;
+  font-size: 12pt;
+}
+  
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: purple;   
+  font-size: 12pt;
+}
+
+textarea {
+  width: 99%;
+  padding: .75rem .75rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background: radial-gradient(#BDB2FF, #A0C4FF,#CAFFBF, #FDFFB6,#FFD6A5, #FFADAD);
+  color: purple;
+  border: solid purple 2pt;
+  text-shadow: 1pt 1pt 3pt gray;
+  border-radius: 1rem;
+  padding: .75rem 1rem;
+  margin: 0 0 2rem 3.5rem;
+  width: 75%;
+  max-width: 20rem;
+  font-family: "sigmar one";
+  font-size: 12pt;
+  box-shadow: 1rem 1rem 2rem gray;
+  
+}
+
+form label.top input:required {
+  border-left: solid red 6px;
+}
+
+form label.top input:required:valid {
+  border-left: solid green 6px;
+}
+
 footer {
     background-color: white;
     padding: 1rem;
@@ -330,6 +417,14 @@ footer {
     font-family: "love ya like a sister";
     text-align: center;
     margin-bottom: 3rem;
+}
+
+/*Thank you page-Stormtracker*/
+
+.para {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: "love ya like a sister";
 }
 
 footer a {
