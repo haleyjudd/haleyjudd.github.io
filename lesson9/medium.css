@@ -1,0 +1,13 @@
+@media only screen and (min-width: 44rem) {
+
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    h1 {
+        padding: 1rem 25%;
+        font-size: 27pt;
+    }
+}

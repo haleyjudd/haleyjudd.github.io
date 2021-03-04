@@ -1,0 +1,16 @@
+@media only screen and (min-width: 64rem) {
+
+    .cards {
+        margin: 1rem 2rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+       
+    }
+
+    h1 {
+        padding: 1rem 34%;
+        font-size: 32pt;
+    }
+
+}

@@ -1,0 +1,62 @@
+/*Main*/
+body {
+    background-color: gray;
+}
+h1 {
+    background-color: white;
+    margin-top: 2rem 0;
+    padding: 1rem 15%;
+    box-shadow: 1pt 1pt 3pt black;
+    font-family: "Quicksand";
+    font-size: 23pt;
+    
+}
+
+.cards {
+    margin: 1rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+   
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    border: 1pt solid black;
+    box-shadow: 2pt 3pt 4pt black;
+    border-radius: 5rem;
+}
+
+section:hover {
+    background-color: rgb(252, 253, 165);
+    box-shadow: 2pt 3pt 7pt black;
+}
+
+h2 {
+    color: rgb(173, 17, 5);
+    text-align: center;
+    font-family: "niconne";
+    font-size: 25pt;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    border-radius: 5rem;
+    box-shadow: 2pt 3pt 5pt gray;
+}
+
+p {
+    color: black;
+    font-family: "quicksand";
+    padding: 0 2rem;
+}
+
+footer {
+        background-color: white;
+        margin: 2rem 0;
+        padding: 1rem 40%;
+        box-shadow: 1pt 1pt 3pt black;
+        font-family: "quicksand";
+}
