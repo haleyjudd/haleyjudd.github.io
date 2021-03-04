@@ -39,7 +39,7 @@ fetch(requestURL)
             let bodyDiv = document.createElement('div');
             bodyDiv.classList.add('card-body');
 
-            // img - picture
+
             let image = document.createElement('img');
             image.setAttribute('src', prophets[i].imageurl);
             image.setAttribute('loading', 'lazy');
@@ -49,27 +49,22 @@ fetch(requestURL)
             card.appendChild(image);
             card.appendChild(bodyDiv);
 
-            // h2 - name
             let fullName = document.createElement('h2');
             fullName.textContent = prophets[i].name + ' ' + prophets[i].lastname;
             titleDiv.appendChild(fullName);
-            
-            // p - order
+
             let order = document.createElement('p');
             order.textContent = 'Chronological Order:\r\n ' + prophets[i].order;
             bodyDiv.appendChild(order);
 
-            // p - birthdate
             let dateOfBirth = document.createElement('p');
             dateOfBirth.textContent = 'Date of Birth:\r\n ' + prophets[i].birthdate;
             bodyDiv.appendChild(dateOfBirth);
 
-            // p - birthplace
             let placeOfBirth = document.createElement('p');
             placeOfBirth.textContent = 'Place of Birth:\r\n' + prophets[i].birthplace;
             bodyDiv.appendChild(placeOfBirth);
 
-            // p - Date of death
             let death = document.createElement('p');
             death.textContent = 'Date of Death:\r\n' + prophets[i].death;
             bodyDiv.appendChild(death);
