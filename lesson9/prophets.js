@@ -1,75 +1,42 @@
-/*const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
-  });
+   console.table(jsonObject);  // temporary checking for valid response and data parsing
+   const prophets = jsonObject['prophets'];
 
-  const prophets = jsonObject['prophets'];
+  const cards = document.querySelector('.cards');
 
-  for (let i = 0; i < prophets.length; i++ ) {
-
+   prophets.forEach(prophet => {
     let card = document.createElement('section');
-let h2 = document.createElement('h2');
 
-h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
+    let h2 = document.createElement('h2');
+    h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+    card.appendChild(h2);
 
-card.appendChild(h2);
+    let image = document.createElement('img');
+    image.setAttribute('src', prophet.imageurl);
+    card.appendChild(image);
 
-document.querySelector('div.cards').appendChild(card);
-  }*/
+    let birth = document.createElement('p');
+    birth.innerHTML = `Date of Birth: ${prophet.birthdate}`;
+    card.appendChild(birth);
 
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+    let place = document.createElement('p');
+    place.innerHTML = `Place of Birth: ${prophet.birthplace}`;
+    card.appendChild(place);
 
-fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
-        const prophets = jsonObject['prophets'];
+    let death = document.createElement('p');
+    death.innerHTML = `Date of Death: ${prophet.death}`;
+    card.appendChild(death);
 
-        for (let i = 0; i < prophets.length; i++) {
-            let card = document.createElement('section');
-            let titleDiv = document.createElement('div');
-            titleDiv.classList.add('card-title');
-            let bodyDiv = document.createElement('div');
-            bodyDiv.classList.add('card-body');
-
-
-            let image = document.createElement('img');
-            image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('loading', 'lazy');
-            image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + (i + 1));
-         
-            card.appendChild(titleDiv);
-            card.appendChild(image);
-            card.appendChild(bodyDiv);
-
-            let fullName = document.createElement('h2');
-            fullName.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            titleDiv.appendChild(fullName);
-
-            let order = document.createElement('p');
-            order.textContent = 'Chronological Order:\r\n ' + prophets[i].order;
-            bodyDiv.appendChild(order);
-
-            let dateOfBirth = document.createElement('p');
-            dateOfBirth.textContent = 'Date of Birth:\r\n ' + prophets[i].birthdate;
-            bodyDiv.appendChild(dateOfBirth);
-
-            let placeOfBirth = document.createElement('p');
-            placeOfBirth.textContent = 'Place of Birth:\r\n' + prophets[i].birthplace;
-            bodyDiv.appendChild(placeOfBirth);
-
-            let death = document.createElement('p');
-            death.textContent = 'Date of Death:\r\n' + prophets[i].death;
-            bodyDiv.appendChild(death);
-
-
-            document.querySelector('div.cards').appendChild(card);
-        }
-    });
+    
+    cards.appendChild(card);
+    
+    document.querySelector('div.cards').appendChild(card);
+   });
+   
+  });
