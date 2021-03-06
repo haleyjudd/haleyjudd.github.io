@@ -172,4 +172,24 @@ form input.submitBtn {
   font-size: 2rem;
 }
 
+/*Home page*/
+.cards {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div section {
+  display: block;
+  margin-bottom: 0;
+}
+
+.cards figure img {
+  width: 90%; 
+  height: auto;
+}
+
+div section {
+  margin: 0;
+}
+
 }

@@ -427,6 +427,55 @@ footer {
   font-family: "love ya like a sister";
 }
 
+/* Home page*/
+
+.homePage {
+  margin: 2rem 1rem;
+  color: red;
+  font-size: 2rem;
+  font-family: "sigmar one";
+}
+
+img.mount {
+  width: 100%;
+  height: auto;
+}
+
+.cards {
+  margin: 1rem;
+  background-color: white; 
+  border: solid 2px yellow;
+  padding: 2rem;
+}
+
+.cards img {
+  border: solid 1px blue;
+}
+.cards div {
+   padding: 1rem;
+  }
+
+.cards div h2 {
+  margin: 0; 
+  color: Green;
+  text-align: center;
+  
+}
+.cards div h3 {
+  margin: 0; 
+  color: orange; 
+  text-align: center;
+}
+.cards div figure {
+  margin: 0; 
+  width: 90%;
+}
+.cards img {
+  margin-left: 1rem;
+  width: 90%; 
+  height: auto;
+}
+
 footer a {
   text-decoration: none;
   color: blue;
