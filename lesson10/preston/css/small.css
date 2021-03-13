@@ -1,0 +1,504 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  max-width: 100%;
+}
+body {
+    background-color: rgb(228, 228, 253);
+}
+
+header {
+  margin-top: 5rem;
+  background-color: white;
+  padding: .5rem;
+}
+
+header img {
+  display: inline;
+  width: 15%;
+  margin-left: 1rem;
+}
+  
+header h1 {
+  color: blue;
+  margin-left: 1rem;
+  font-family: "sigmar one";
+  font-size: 15pt;
+  text-shadow: 2px 3px 4px black;
+}
+
+header h2 {
+  color: black;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  font-family: "love ya like a sister";
+  font-size: 8pt;
+}
+/*navigation
+*/
+nav {
+  background-color: white;
+  box-shadow: 3px 3px 5px gray;
+  border-radius: 2px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: .5rem;
+}
+nav ul li a {
+  display: block;
+  color: #eee;
+  text-decoration: none;
+  font-size: .9rem;
+  text-align: center;
+}
+/*
+#red, #orange, #yellow, #green, #blue, #purple {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+*/
+#red {
+  background-color: #FFADAD;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+ 
+#orange {
+  background-color:#FFD6A5;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#yellow {
+  background-color:#FDFFB6;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#green {
+  background-color: #CAFFBF;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#blue {
+  background-color:#A0C4FF;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#purple {
+  background-color: #BDB2FF;
+  text-shadow: 1px 1px 2px white;
+  font-family: "sigmar one", sans serif;
+  font-size: 14pt;
+  text-align: center;
+}
+
+#red:hover {
+  background-color: red;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+#orange:hover {
+  background-color: orange;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+
+}
+#yellow:hover {
+    background-color: yellow;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+#green:hover {
+  background-color: green;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  
+
+}
+#blue:hover {
+  background-color: blue;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+
+}
+#purple:hover {
+    background-color:  purple;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+
+}
+
+.active {
+  border: .2rem solid black;
+}
+
+button {
+  background-color: #FFADAD;
+  color: white;
+  width: 2rem;
+  padding: .3rem;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+
+/*main content*/
+
+#message {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  border: 1pt solid yellow;
+  font-size: 8pt;
+  text-align: center;
+  box-shadow: 1px 1px 2px black;
+  font-family: "love ya like a sister";
+}
+div.showme {
+  display: block;
+}
+
+div.hideme {
+  display: none;
+}
+
+.place1 {
+  margin-left: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 2.5pt solid green;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+
+.cont1 img {
+  width: 100%;
+}
+
+.pageTitle {
+  color: purple;
+  margin-left: 0;
+  padding: 1rem;
+  text-shadow: .5px .5px 1px white;
+  font-family: "sigmar one";
+}
+
+.cont2 h2 {
+  color: purple;
+  margin-left: 5.3rem;
+  padding: 1rem;
+  text-shadow: .5px .5px 1px white;
+  font-family: "sigmar one";
+}
+
+.cont2 p {
+  font-family: "love ya like a sister";
+  font-size: 15pt;
+
+}
+
+.place2 {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 2.5pt solid orange;
+  box-shadow: 2px 2px 5px black;
+  font-size: 15pt;
+  font-family: "love ya like a sister";
+}
+
+.place2 h3, p {
+  text-align: center;
+}
+
+.place3 h2 {
+  margin-left: -1rem;
+}
+
+.cont2 h2 {
+  margin-left: 0;
+}
+
+section.forecast {
+  display: block;
+}
+
+section.forecast div {
+  margin: 1rem 2rem;
+  text-align: center;
+  border: 2.5pt solid purple;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+
+}
+
+section.forecast div h5, #daysForecast span {
+  margin: 0;
+  padding: 1rem;
+  font-size: 12pt;
+  font-family: "love ya like a sister";
+  text-shadow: 1px 1px 2px gray;
+}
+
+.place3 {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border: 2.5pt solid red;
+  box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
+}
+.place3 img {
+  width: 100%;
+  height: auto;
+}
+
+.bottom {
+  margin: 2rem 1rem;;
+  background-color: white;
+  border: 2.5pt solid blue;
+  padding: .5rem;
+  box-shadow: 2px 2px 5px black;
+}
+
+.bottom img {
+  margin: 1rem 0 .5rem 8rem;
+}
+
+.address {
+  margin-left: .5rem;
+}
+
+.address h2 {
+  margin-left: -1rem;
+}
+
+.contact p {
+  margin-top: 4rem;
+}
+
+.bottom img {
+  display: none;
+}
+
+/*Gallery page*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 15px;
+}
+
+.gallery img {
+  max-width: 100%;
+}
+
+figcaption {
+  text-align: center;
+  margin: .5rem;
+}
+
+/*Storm Tracker Page*/
+
+.stormH {
+  margin: 2rem 0 1rem 1rem;
+  color: purple;
+  font-size: 2rem;
+  font-family: "sigmar one";
+}
+form fieldset {
+  width: 75%;
+  margin: 2rem 3rem;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding: .5rem 2%;
+  background-color: white;
+  box-shadow: 1rem 1rem 2rem gray;
+  
+}
+
+form legend {
+  color: green;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-family: "sigmar one";
+  font-size: 16pt;
+}
+
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: purple;
+  font-size: .8rem;
+  font-family: "love ya like a sister";
+  font-size: 12pt;
+}
+
+form label.top input, form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px orange;
+  border-radius: 4px;
+  padding: .75rem;
+  color:#555;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgb(228, 228, 253);
+}
+
+.flexly {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  font-family: "love ya like a sister";
+  color: purple;
+  font-size: 12pt;
+}
+  
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: purple;   
+  font-size: 12pt;
+}
+
+textarea {
+  width: 99%;
+  padding: .75rem .75rem;
+}
+
+form input.submitBtn {
+  border: none;
+  background: radial-gradient(#BDB2FF, #A0C4FF,#CAFFBF, #FDFFB6,#FFD6A5, #FFADAD);
+  color: purple;
+  border: solid purple 2pt;
+  text-shadow: 1pt 1pt 3pt gray;
+  border-radius: 1rem;
+  padding: .75rem 1rem;
+  margin: 0 0 2rem 3.5rem;
+  width: 75%;
+  max-width: 20rem;
+  font-family: "sigmar one";
+  font-size: 12pt;
+  box-shadow: 1rem 1rem 2rem gray;
+  
+}
+
+form label.top input:required {
+  border-left: solid red 6px;
+}
+
+form label.top input:required:valid {
+  border-left: solid green 6px;
+}
+
+footer {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1%;
+    box-shadow: 2px 2px 7px black;
+    font-family: "love ya like a sister";
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/*Thank you page-Stormtracker*/
+
+.para {
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+  font-family: "love ya like a sister";
+}
+
+/* Home page*/
+
+.homePage {
+  margin: 2rem 1rem;
+  color: red;
+  font-size: 2rem;
+  font-family: "sigmar one";
+}
+
+img.mount {
+  width: 100%;
+  height: auto;
+}
+
+.cards {
+  margin: 1rem;
+  background-color: white; 
+  border: solid 2px yellow;
+  padding: 2rem;
+}
+
+.cards img {
+  border: solid 1px blue;
+}
+.cards div {
+   padding: 1rem;
+  }
+
+.cards div h2 {
+  margin: 0; 
+  color: Green;
+  text-align: center;
+  
+}
+.cards div h3 {
+  margin: 0; 
+  color: blue; 
+  text-align: center;
+}
+.cards div figure {
+  margin: 0; 
+  width: 90%;
+}
+.cards img {
+  margin-left: 1rem;
+  width: 90%; 
+  height: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: blue;
+}
+.clearfix:after {
+  content: "";
+  display: table; 
+  clear: both;
+}
