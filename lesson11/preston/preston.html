@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Preston weathersite created by Haley Judd for WDD 230 Winter 2021 semester. Week 5." content="Class assignments">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Noah's Forecast-Preston</title>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="../../normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/small.css" type="text/css"/>
+    <link rel="stylesheet" href="css/medium.css" type="text/css"/>
+    <link rel="stylesheet" href="css/large.css" type="text/css"/>
+</head>
+<body>
+    <header class="clearfix">
+        <img src="images/logo2.jpg" alt="Logo">
+        <h1>Noah's Forecast</h1>
+        <h2>Because weather's not just for old men!</h2>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+            <li id="red"><a href="../../lesson9/index.html">Home</a></li>
+            <li id="orange" class="active"><a href="/lesson10/preston/preston.html">Preston</a></li>
+            <li id="yellow"><a href="/lesson11/sodaSprings.html">Soda Springs</a></li>
+            <li id="green"><a href="/lesson11/fishHaven.html">Fish Haven</a></li>
+            <li id="blue"><a href="/lesson-8/stormcenter/stormcenter.html">Storm Center</a></li>
+            <li id="purple"><a href="/gallery/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+      <div id="message" class="showme">Saturday- Preston Pancakes in the Park!
+          9:00 a.m. Saturday at the city park pavilion.</div>
+      <div id="containerP">
+      <h1 class="pageTitle">Preston, Idaho</h1>
+            <picture class="cont1">
+              <source media="(max-width:400px" srcset="images/franklinOriginal350.jpg">
+              <source media="(max-width:1000px" srcset="images/franklinOriginal800.jpg">
+              <img src="images/franklinOriginal960.jpg" alt="Rainbow with mountains">
+            </picture>
+            <div class="place2"><h3>Weather Summary</h3>
+              <p>Current Temperature: <span id="temp"></span>&deg;</p>
+              <p> High: <span id="high"></span>&deg;</p> 
+              <p> Low: <span id="low"></span>&deg;</p>
+              <p>Wind Speed: <span id="speed"></span> mph</p>
+              <p>Humidity: <span id="humid"></span>&deg;</p>
+              <p>Windchill: <span id="chill"></span>&deg;</p>
+          </div>
+        </div>
+         <div class="cont2">
+           <h2>Five Day Forecast</h2>
+            <section class="forecast">
+              <div id="daysForecast">
+              </div>
+             </section>
+            <section class="clearfix">
+           <div class="place3"><h2>Article Title</h2>
+
+           <img src="images/rainstorm.jpg" alt="Rainstorm">
+          
+          <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip
+            ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim
+            id est laborum.
+          </p>
+          
+        </section>
+          </div>
+          <section class="bottom">
+            
+            <div class="address">
+              <h2>Contact Us</h2>
+              <p><strong>Address:</strong>
+                <br>
+                The Weather Center<br>
+                123 Main Street <br>
+                Franklin, MI 87654
+              </p>
+            </div> 
+            <div class="contact">
+              <p>
+                <strong>Phone:</strong><br>
+                (801)555-1234<br>
+                <strong>Email:</strong> <br>
+                contact@noahsforecast.com
+              </p>
+            </div>
+            <img src="images/map.jfif" alt="Map of Franklin">
+
+            </section>
+          </div>
+      </div>  
+    </main>
+    <footer>
+      <p>
+        &copy; 2021 | Haley Judd | New York | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+        <br>
+        <span id="currentdate"></span>
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+   
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+   <script src="js/windchill.js"></script>
+  </body>
+</html>

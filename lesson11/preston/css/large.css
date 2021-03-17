@@ -1,0 +1,197 @@
+@media only screen and (min-width: 64rem) {
+
+
+  
+header img {
+  position: absolute;
+  display: inline;
+  width: 20%;
+  margin: -2rem 0 -2rem 7rem;
+  padding: 3rem;
+}
+
+header h1 {
+text-align: left;
+margin-left: 21rem;
+font-family: "sigmar one";
+font-size: 35pt;
+text-shadow: 1px 2px 3px black;
+}
+
+header h2 {
+margin-left: 21rem;
+padding-bottom: 1rem;
+font-family: "love ya like a sister";
+font-size: 18pt;
+}
+
+/*nav*/ 
+nav ul {
+  margin: 0 11rem;
+}
+
+nav ul li {
+  padding: .5rem 2rem;
+}
+
+/*main*/
+
+#message {
+  font-size: 15pt;
+}
+
+.cont1 {
+  position: relative;
+ }
+
+ .cont1 img {
+   width: 75%;
+   margin-left: 6rem;
+   margin-right: 10rem;
+ }
+
+
+ .pageTitle {
+   margin-left: 10rem;
+ }
+
+ .place1 {
+   width: 100%;
+   margin-left: 6rem;
+ }
+
+.place2 {
+  position: absolute;
+  width: 15%;
+  margin-left: 13rem;
+  margin-top: -27.5rem;
+ /* background: radial-gradient(#BDB2FF, #A0C4FF,#CAFFBF, #FDFFB6,#FFD6A5, #FFADAD);*/
+
+}
+
+.forecast img {
+  max-width: 100%;
+}
+
+
+#daysForecast div {
+  max-width: 100%;
+  margin: 2rem 1.3rem;
+  padding: 1rem;
+}
+
+#daysForecast {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 4rem;
+  margin-right: 2rem;
+}
+
+.cont1, .cont2 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.cont2 h2 {
+  margin-left: 5rem;
+}
+
+.place3 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.place3 h2 {
+  margin-left: -1rem;
+}
+
+.place3 img {
+  max-width: 100%;
+  float: right;
+  margin: 0 0 .5rem .5rem;
+}
+
+.bottom {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.address h2 {
+  margin-left: -1rem;
+}
+
+.contact p {
+  margin-top: 4rem;
+}
+
+/*Gallery page*/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  margin: 1rem 7rem;
+}
+
+.gallery figure:hover {
+  background-color: white;
+  box-shadow: 1rem .5rem 1rem gray;
+  border: solid 3pt orange;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
+}
+
+img {
+  filter: blur(0em);
+  transition: .2s;
+}  
+
+/*Storm Tracker Page*/
+
+.stormH {
+  margin: 2rem 0 1rem 11rem;
+
+}
+form fieldset {
+  width: 25%;
+  margin: 2rem 11rem;
+}
+
+form label.sbs {
+  padding: .4rem 0;
+}
+
+form input.submitBtn {
+  margin: 0 0 2rem 11rem;
+  width: 75%;
+
+}
+
+/*Thank you page*/
+.para {
+  font-size: 2rem;
+}
+
+/*Home page*/
+.cards {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div section {
+  display: block;
+  margin-bottom: 0;
+}
+
+.cards figure img {
+  width: 90%; 
+  height: auto;
+}
+
+div section {
+  margin: 0;
+}
+
+}
