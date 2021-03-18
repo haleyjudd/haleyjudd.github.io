@@ -52,16 +52,13 @@ nav ul {
   margin: 0;
 }
 
-nav ul li {
-  padding: .5rem;
-}
 nav ul li a {
   display: block;
   color: #eee;
   text-decoration: none;
-  font-size: 16pt;
   text-align: center;
   color: black;
+  padding: 1rem .5rem;
 }
 /*
 #red, #orange, #yellow, #green, #blue, #purple {
@@ -72,6 +69,7 @@ nav ul li a {
   text-align: center;
 }
 */
+
 #red {
   background-color: #FFADAD;
   text-shadow: 1px 1px 2px white;
@@ -125,12 +123,15 @@ nav ul li a {
   background-color: red;
   color: white;
   text-shadow: 1px 1px 2px black;
+
 }
 
 #orange:hover {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px 2px black;
+
+
 
 }
 #yellow:hover {
@@ -288,12 +289,35 @@ section.forecast div h5, #daysForecast span {
   height: auto;
 }
 
+#events, #eventss, #eventsf {
+  margin: 1rem 11rem;
+  padding: 1rem;
+  background-color: white;
+  border: 2.5pt solid yellow;
+  box-shadow: 2px 2px 5px black;
+  
+}
+
+#events h2, #eventss h2, #eventsf h2 {
+  text-align: center;
+  font-family:"sigmar one";
+  color: orange; 
+}
+
+#events p, #eventss p, #eventsf p {
+  padding: 1rem;
+  font-size: 15pt;
+  font-family: "love ya like a sister";
+  color: black;
+}
+
 .bottom {
   margin: 2rem 1rem;;
   background-color: white;
   border: 2.5pt solid blue;
   padding: .5rem;
   box-shadow: 2px 2px 5px black;
+  font-family: "love ya like a sister";
 }
 
 .bottom img {
@@ -301,11 +325,16 @@ section.forecast div h5, #daysForecast span {
 }
 
 .address {
-  margin-left: .5rem;
+  margin: 1rem 12rem;
 }
 
-.address h2 {
+.bottom h2 {
   margin-left: -1rem;
+  font-family:"sigmar one";
+}
+
+.address p {
+  font-family: "love ya like a sister";
 }
 
 .contact p {

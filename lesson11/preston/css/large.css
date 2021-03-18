@@ -10,6 +10,8 @@ header img {
   padding: 3rem;
 }
 
+
+
 header h1 {
 text-align: left;
 margin-left: 21rem;
@@ -31,7 +33,11 @@ nav ul {
 }
 
 nav ul li {
-  padding: .5rem 2rem;
+  padding: .5rem 1rem;
+}
+
+li {
+  font-size: 15pt;
 }
 
 /*main*/
@@ -74,13 +80,13 @@ nav ul li {
 }
 
 
-#daysForecast div {
+#daysForecast, #daysForecastf, #daysForecasts div {
   max-width: 100%;
   margin: 2rem 1.3rem;
   padding: 1rem;
 }
 
-#daysForecast {
+#daysForecast, #daysForecastf, #daysForecasts {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
