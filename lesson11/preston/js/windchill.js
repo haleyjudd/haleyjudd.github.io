@@ -149,7 +149,7 @@ fetch(apiURL)
           let theDayName = document.createElement("h5");
           theDayName.textContent = weekday[forecastDayNumber];
   
-          let theTemp = document.createElement("span");
+          let theTemp = document.createElement("section");
           theTemp.innerHTML = `${weatherInfo.list[i].main.temp}&#176;F`;
   
           let iconcode = weatherInfo.list[i].weather[0].icon;
@@ -193,7 +193,7 @@ fetch(apiURL)
           let theDayName = document.createElement("h5");
           theDayName.textContent = weekday[forecastDayNumber];
   
-          let theTemp = document.createElement("span");
+          let theTemp = document.createElement("section");
           theTemp.innerHTML = `${weatherInfo.list[i].main.temp}&#176;F`;
   
           let iconcode = weatherInfo.list[i].weather[0].icon;
@@ -237,7 +237,7 @@ fetch(apiURL)
           let theDayName = document.createElement("h5");
           theDayName.textContent = weekday[forecastDayNumber];
   
-          let theTemp = document.createElement("span");
+          let theTemp = document.createElement("section");
           theTemp.innerHTML = `${weatherInfo.list[i].main.temp}&#176;F`;
   
           let iconcode = weatherInfo.list[i].weather[0].icon;

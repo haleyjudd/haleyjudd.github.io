@@ -268,9 +268,9 @@ section.forecast div {
 
 }
 
-section.forecast div h5, #daysForecast span {
+section.forecast div h5, #daysForecast section, #daysForecasts section, #daysForecastf section {
   margin: 0;
-  padding: 1rem;
+  padding: 1.5rem;
   font-size: 12pt;
   font-family: "love ya like a sister";
   text-shadow: 1px 1px 2px gray;
@@ -290,7 +290,7 @@ section.forecast div h5, #daysForecast span {
 }
 
 #events, #eventss, #eventsf {
-  margin: 1rem 11rem;
+  margin: 1rem 12rem;
   padding: 1rem;
   background-color: white;
   border: 2.5pt solid yellow;
@@ -311,29 +311,29 @@ section.forecast div h5, #daysForecast span {
   color: black;
 }
 
-.bottom {
-  margin: 2rem 1rem;;
+section.bottom {
+  margin: 2rem 12rem;;
   background-color: white;
   border: 2.5pt solid blue;
   padding: .5rem;
   box-shadow: 2px 2px 5px black;
-  font-family: "love ya like a sister";
 }
 
 .bottom img {
   margin: 1rem 0 .5rem 8rem;
 }
 
-.address {
-  margin: 1rem 12rem;
-}
 
-.bottom h2 {
-  margin-left: -1rem;
+
+.address h2 {
+  color: purple;
   font-family:"sigmar one";
+  margin: 1rem 2rem 0rem 2rem;
+ 
 }
 
 .address p {
+  margin: 1rem 10rem;
   font-family: "love ya like a sister";
 }
 
@@ -354,6 +354,8 @@ section.forecast div h5, #daysForecast span {
 
 .gallery img {
   max-width: 100%;
+  box-shadow: 2px 2px 5px black;
+  
 }
 
 figcaption {
@@ -507,13 +509,20 @@ img.mount {
   margin: 0; 
   color: Green;
   text-align: center;
+  font-family: "sigmar one";
   
 }
 .cards div h3 {
   margin: 0; 
   color: blue; 
   text-align: center;
+  font-family: "love ya like a sister";
 }
+
+.cards div p {
+  font-family: "love ya like a sister";
+}
+
 .cards div figure {
   margin: 0; 
   width: 90%;
