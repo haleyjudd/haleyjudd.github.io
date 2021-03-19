@@ -13,6 +13,7 @@ body {
 }
 
 header {
+  max-width: 100%;
   margin-top: 5rem;
   background-color: white;
   padding: .5rem;
@@ -42,6 +43,7 @@ header h2 {
 /*navigation
 */
 nav {
+  max-width: 100%;
   background-color: white;
   box-shadow: 3px 3px 5px gray;
   border-radius: 2px;
@@ -181,7 +183,7 @@ nav ul.hide {
 #message {
   position: absolute;
   top: 1rem;
-  width: 100%;
+  max-width: 100%;
   padding: 1rem;
   background-color: white;
   border: 1pt solid yellow;
@@ -190,6 +192,8 @@ nav ul.hide {
   box-shadow: 1px 1px 2px black;
   font-family: "love ya like a sister";
 }
+
+
 div.showme {
   display: block;
 }
@@ -208,7 +212,7 @@ div.hideme {
 }
 
 .cont1 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .pageTitle {
@@ -290,7 +294,7 @@ section.forecast div h5, #daysForecast section, #daysForecasts section, #daysFor
 }
 
 #events, #eventss, #eventsf {
-  margin: 1rem 12rem;
+  margin: 1rem 0rem;
   padding: 1rem;
   background-color: white;
   border: 2.5pt solid yellow;
@@ -312,7 +316,8 @@ section.forecast div h5, #daysForecast section, #daysForecasts section, #daysFor
 }
 
 section.bottom {
-  margin: 2rem 12rem;;
+  max-width: 100%;
+  margin: 1rem 0rem;
   background-color: white;
   border: 2.5pt solid blue;
   padding: .5rem;
@@ -326,14 +331,15 @@ section.bottom {
 
 
 .address h2 {
+  text-align: center;
   color: purple;
   font-family:"sigmar one";
-  margin: 1rem 2rem 0rem 2rem;
+  margin: 1rem 0rem;
  
 }
 
-.address p {
-  margin: 1rem 10rem;
+.address p, .contact p {
+  margin: 1rem 5rem;
   font-family: "love ya like a sister";
 }
 
@@ -350,6 +356,7 @@ section.bottom {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 15px;
+  margin-left: 20%;
 }
 
 .gallery img {
@@ -361,6 +368,7 @@ section.bottom {
 figcaption {
   text-align: center;
   margin: .5rem;
+  font-family: "love ya like a sister";
 }
 
 /*Storm Tracker Page*/
@@ -487,11 +495,12 @@ footer {
 }
 
 img.mount {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
 .cards {
+  max-width: 100%;
   margin: 1rem;
   background-color: white; 
   border: solid 2px yellow;

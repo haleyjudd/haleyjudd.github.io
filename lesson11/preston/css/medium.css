@@ -2,6 +2,7 @@
 
   header {
     max-width: 100%;
+    padding: 1.5rem;
   }
   
     header img {
@@ -35,12 +36,11 @@
           padding: 0;
           margin: 0;
       }
-      nav ul li {
-        padding: .5rem 1rem;
-      }
+      
       
       nav ul li a {
           display: inline-block;
+          padding: 0 .67rem;
       
       }
 
@@ -55,6 +55,7 @@
   /*main*/
 
   #message {
+    width: 100%;
     top: 1rem;
     font-size: 12pt;
   }
@@ -63,7 +64,9 @@
   margin-left: 0;
 }
 
-
+.cont1 img {
+  width: 100%;
+}
   .place2 {
     position: absolute;
     font-size: 12pt;
@@ -103,6 +106,9 @@
     margin-left: 4rem;
     margin-right: 2rem;
   }
+div.place3 {
+  max-width: 100%;
+}
 
 .place3 h2 {
   margin-left: -1rem;
@@ -146,6 +152,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
+  margin-left: 2rem;
 }
 
 /*Home Page*/
@@ -161,6 +168,10 @@ img.mount {
   margin: .5rem auto;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.cards div {
+  margin-left: 1rem;
 }
 
 div section {
