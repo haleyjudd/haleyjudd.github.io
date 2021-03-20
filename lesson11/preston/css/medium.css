@@ -33,14 +33,18 @@
     nav ul {
         display: flex;
           list-style-type: none;
-          padding: 0;
+          
           margin: 0;
       }
+
+  nav ul li {
+    padding: 1rem 1rem;
+  }
       
       
       nav ul li a {
           display: inline-block;
-          padding: 0 .67rem;
+          padding: 0 1rem;
       
       }
 
@@ -70,7 +74,7 @@
   .place2 {
     position: absolute;
     font-size: 12pt;
-    margin: -22rem 0 0 2rem;
+    margin: -30rem 0 0 2rem;
   }
 
   .cont2 h2 {
@@ -94,13 +98,13 @@
     margin: 1rem 2rem;
   }
 
-  #daysForecast div {
+  #daysForecast div, #daysForecasts div, #daysForcastsf div {
     max-width: 100%;
     margin: 2rem 1.3rem;
     padding: 1rem;
   }
   
-  #daysForecast {
+  #daysForecast, #daysForecasts, #daysForcastsf  {
     width: 100%;
   
     margin-left: 4rem;

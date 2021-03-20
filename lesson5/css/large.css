@@ -27,7 +27,7 @@ font-size: 18pt;
 
 /*nav*/ 
 nav ul {
-  margin: 0 11rem;
+  margin: 0 25rem 0 12rem;
 }
 
 nav ul li {
@@ -49,15 +49,16 @@ nav ul li {
  }
 
  .place1 {
-   width: 84%;
-   margin-left: 6rem;
+   max-width: 100%;
+ }
+
+ .place1 img {
+   max-width: 100%;
  }
 
 .place2 {
   position: absolute;
-  width: 15%;
-  margin-left: 8rem;
-  margin-top: -29.5rem;
+  margin-top: -24rem;
  /* background: radial-gradient(#BDB2FF, #A0C4FF,#CAFFBF, #FDFFB6,#FFD6A5, #FFADAD);*/
 
 }

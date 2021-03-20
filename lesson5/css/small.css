@@ -6,9 +6,10 @@
   padding: 0;
 }
 html {
-  max-width: 100%;
+  max-width: 97%;
 }
 body {
+  max-width: 100%;
     background-color: rgb(228, 228, 253);
 }
 
@@ -16,6 +17,7 @@ header {
   margin-top: 5rem;
   background-color: white;
   padding: .5rem;
+  flex: 100px auto;
 }
 
 header img {
@@ -49,11 +51,11 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin: 0 2rem;
 }
 
 nav ul li {
-  padding: .5rem;
+  padding: 1rem;
 }
 nav ul li a {
   display: block;
@@ -174,8 +176,12 @@ nav ul.hide {
 
 
 /*main content*/
-
+main, footer {
+  max-width: 64rem;
+  margin: auto;
+}
 #message {
+
   position: absolute;
   top: 1rem;
   width: 100%;
@@ -195,15 +201,12 @@ div.hideme {
   display: none;
 }
 
-
-/*
-.cont2 {
-  display: flex;
-  flex-direction: row;
+.cont1, .cont2 {
+  margin: 0;
 }
-*/
+
 .place1 {
-  margin: 1rem;
+  max-width: 97%;
   padding: 1rem;
   background-color: white;
   border: 2.5pt solid green;
@@ -212,7 +215,7 @@ div.hideme {
 }
 
 .place1 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
