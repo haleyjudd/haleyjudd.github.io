@@ -81,8 +81,16 @@ li {
   max-width: 100%;
 }
 
+section.forecast, section.forecasts, section.forecastf {
+  margin-left: 0%;
+}
 
-#daysForecast, #daysForecastf, #daysForecasts div {
+div#events, div#eventss, div#eventsf {
+  width: 86%;
+  margin-left: 7rem;
+}
+
+#daysForecast div, #daysForecastf div, #daysForecasts div {
   max-width: 100%;
   margin: 2rem 1.3rem;
   padding: 1rem;
@@ -114,15 +122,18 @@ div.place3 {
 }
 
 .place3 img {
-  
+  width: 30%;
   float: right;
   margin: 0 0 .5rem .5rem;
 }
 
-.bottom {
-  margin-left: 6rem;
-  margin-right: 6rem;
+section.bottom {
+  width: 86%;
+  margin: 2rem 0 2rem 7rem;
+  grid-template-columns: auto auto auto;
 }
+
+
 
 .address h2 {
   margin-left: -1rem;
@@ -130,6 +141,10 @@ div.place3 {
 
 .contact p {
   margin-top: 4rem;
+}
+
+.contact img {
+  margin-right: 7rem;
 }
 
 /*Gallery page*/

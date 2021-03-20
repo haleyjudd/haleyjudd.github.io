@@ -124,23 +124,29 @@ div.place3 {
   width: 40%;
   float: right;
   }
-/*
-.hide {
-  display: none;
-}  
-*/
-  .bottom {
-    margin: 1rem;
+
+div#events, div#eventss, div#eventsf {
+  width: 92%;
+  margin-left: 2rem;
+}
+
+section.forecast, section.forecasts, section.forecastf {
+  margin-left: 25%;
+}
+
+  section.bottom {
+    width: 92%;
+    margin: 2rem 0 2rem 2rem;
   }
 
   .bottom img {
     display: block;
-    margin: 1rem 0 .5rem 2rem;
+    margin: 1rem 5rem .5rem 4rem;
   }
 
   section.bottom {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 270px 165px auto;
   }
 
   .address h2 {
