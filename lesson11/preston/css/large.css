@@ -86,8 +86,8 @@ section.forecast, section.forecasts, section.forecastf {
 }
 
 div#events, div#eventss, div#eventsf {
-  width: 86%;
-  margin-left: 7rem;
+  width: 89%;
+  margin-left: 5rem;
 }
 
 #daysForecast div, #daysForecastf div, #daysForecasts div {
@@ -114,7 +114,8 @@ div#events, div#eventss, div#eventsf {
 }
 
 div.place3 {
-  width:100%;
+  width: 91%;
+  margin-left: 4rem;
 }
 
 .place3 h2 {
@@ -128,8 +129,8 @@ div.place3 {
 }
 
 section.bottom {
-  width: 86%;
-  margin: 2rem 0 2rem 7rem;
+  width: 89%;
+  margin: 2rem 0 2rem 5rem;
   grid-template-columns: auto auto auto;
 }
 

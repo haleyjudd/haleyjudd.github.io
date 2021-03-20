@@ -306,7 +306,7 @@ section.forecast div h5, #daysForecast section, #daysForecasts section, #daysFor
 #events h2, #eventss h2, #eventsf h2 {
   text-align: center;
   font-family:"sigmar one";
-  color: orange; 
+  color: green; 
 }
 
 #events p, #eventss p, #eventsf p {
