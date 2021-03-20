@@ -180,7 +180,7 @@ img {
 }
 form fieldset {
   width: 25%;
-  margin: 2rem 11rem;
+  margin: auto;
 }
 
 form label.sbs {
@@ -188,7 +188,7 @@ form label.sbs {
 }
 
 form input.submitBtn {
-  margin: 0 0 2rem 11rem;
+  margin: 2rem 0 2rem 32rem;
   width: 75%;
 
 }
