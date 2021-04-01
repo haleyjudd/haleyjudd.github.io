@@ -139,7 +139,7 @@ fetch(apiURL)
       for (i = 0; i < mylist.length; i++) {
         let time = mylist[i].dt_txt;
         if (time.includes("18:00:00")) {
-        
+        console.log(time);
   
           forecastDayNumber += 1;
           if (forecastDayNumber === 7) {

@@ -1,0 +1,40 @@
+@media only screen and (min-width: 44rem) {
+
+
+
+    /*Nav */
+    nav {
+        max-width: 100%;
+      }
+  
+      nav ul {
+          display: flex;
+            list-style-type: none;
+            
+            margin: 0;
+        }
+  
+    nav ul li {
+      padding: 1rem 1rem;
+    }
+        
+        
+        nav ul li a {
+            display: inline-block;
+            padding: 0 1rem;
+        
+        }
+  
+        nav ul.hide{
+          display: flex;
+        }
+    
+      nav button {
+        display: none;
+    }
+
+
+
+
+
+}

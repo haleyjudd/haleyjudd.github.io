@@ -38,6 +38,7 @@ nav ul li {
 
 #message {
   font-size: 15pt;
+  padding: 1rem 12rem;
 }
 
 .cont1 {
@@ -58,7 +59,7 @@ nav ul li {
 
 .place2 {
   position: absolute;
-  margin-top: -24rem;
+  margin-top: -22rem;
  /* background: radial-gradient(#BDB2FF, #A0C4FF,#CAFFBF, #FDFFB6,#FFD6A5, #FFADAD);*/
 
 }

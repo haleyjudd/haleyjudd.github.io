@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page-Peru</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/small.css" type="text/css"/>
+    <link rel="stylesheet" href="css/medium.css" type="text/css"/>
+    <link rel="stylesheet" href="css/large.css" type="text/css"/>
+</head>
+<body>
+    <header class="clearfix">
+        <img src="images/logo.jpg" alt="Logo">
+        <h1>Peru</h1>
+        <h2>The Apple Capital of New York</h2>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+          </ul>
+      </nav>
+    <main>
+        
+        <h1 class="pgTitle">Join the Peru Chamber of Commerce</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label> 
+                <label class="top">Last Name*<input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>  
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label> 
+                <label class="top">Title<input type="text" name="title"></label>
+                <label class="top">Business Name<input type="text" name="text" required></label>
+                <label class="top">Phone Number<input type="phone" name="phone" placeholder="000-000-0000"></label> 
+                <label class="top">Business Address<input type="text" name="baddress"></label> 
+                <label class="top">Business Website<input type="text" name="zip" required></label>   
+                <legend>Business Description</legend>
+                
+                <textarea name="text" rows="4" cols="50" placeholder="Business discription"></textarea>
+            </fieldset> 
+            
+            <fieldset>
+                <legend>Membership</legend>
+                
+                <label class="top">Please Select<input list="membership" name="membership">
+                        <datalist id="membership">
+                          <option value="Non-Profit ($100)"></option>
+                          <option value="Bronze ($200)"></option>
+                          <option value="Silver ($400)"></option>
+                          <option value="Gold ($1000)"></option>
+                        </datalist>
+                        <ul>
+                            <ol><strong>Membership Benefits</strong></ol>
+                            <li>Non-Profit:</li>
+                                <li>Access to Newsletter</li>
+                                <li>Space on Peru Town Website</li>
+                                
+                            <li>Bronze</li>
+                                
+                            <li>Silver</li>
+                               
+                            <li>Gold</li>
+    
+                        </ul>
+                </label> 
+                
+
+            <input type="submit" value="Join Our Community" class="submitBtn">
+        </form>
+        
+
+    </main>
+    <footer>
+        &copy; 2021 | Haley Judd | New York | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+   <script src="script.js"></script>
+</body>
+</html>

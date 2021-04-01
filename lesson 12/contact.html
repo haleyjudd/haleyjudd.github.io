@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page-Peru</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/small.css" type="text/css"/>
+    <link rel="stylesheet" href="css/medium.css" type="text/css"/>
+    <link rel="stylesheet" href="css/large.css" type="text/css"/>
+</head>
+<body>
+    <header class="clearfix">
+        <img src="images/logo.jpg" alt="Logo">
+        <h1>Peru</h1>
+        <h2>The Apple Capital of New York</h2>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="city.html">City</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li> 
+          </ul>
+      </nav>
+    <main>
+      <div class="address">
+        <h2>Peru Main Office</h2>
+        <p>123 Main St.</p>
+        <p>Peru, NY 12972</p>
+        <p>Phone: (518) 563-1234</p>
+        <p>perucouncil@newyorkstate.com</p>
+      </div>
+        <h1 class="pgTitle">Contact Us</h1>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">First Name*<input type="text" name="fname" pattern="[A-Za-z]{5,}" required></label> 
+                <label class="top">Last Name*<input type="text" name="lname" pattern="[A-Za-z]{5,}" required></label>  
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label> 
+                <label class="top">Phone Number<input type="phone" name="phone" placeholder="000-000-0000"></label> 
+                 
+                <legend>Share Your Comments</legend>
+                
+                <textarea name="text" rows="4" cols="50" placeholder="Comments"></textarea>
+            
+                
+            <input type="submit" value="Share Your Comments" class="submitBtn">
+        </fieldset>
+        </form>
+        <section class="contactMap">
+            <table>
+                <caption>Peru Departments</caption>
+                <tr>
+                    <th>Department</th>
+                    <th>Name</th> 
+                    <th>Contact Info</th>
+                  </tr>
+                  <tr>
+                    <td>Court</td>
+                    <td>Jennifer Martineau</td>
+                    <td>(518) 518-643-4187</td>
+                  </tr>
+                  <tr>
+                    <td>Town Justice</td>
+                    <td>George Ladue</td>
+                    <td>(518) 518-643-7384</td>
+                  </tr>
+                  <tr>
+                    <td>Court Clerk</td>
+                    <td>Susan Burnell</td>
+                    <td>(518) 518-643-4722</td>
+                  </tr>
+                  <tr>
+                    <td>Assessor</td>
+                    <td>Travis Smith</td>
+                    <td>(518) 518-643-8177</td>
+                  </tr>
+                  <tr>
+                    <td>Highway Department</td>
+                    <td>Alex Barshow</td>
+                    <td>(518) 518-643-6319</td>
+                  </tr>
+                  <tr>
+                    <td>Water/Sewer Department</td>
+                    <td>Rick Carson</td>
+                    <td>(518) 518-643-4409</td>
+                  </tr>
+                  <tr>
+                    <td>Dog Control Officer</td>
+                    <td>Phil Godeau</td>
+                    <td>(518) 518-643-5189</td>
+                  </tr>
+                  <tr>
+                    <td>Code Enforcement Officer</td>
+                    <td>Michelle Porter</td>
+                    <td>(518) 518-643-8372</td>
+                  </tr>
+                  <tr>
+                    <td>Historian</td>
+                    <td>Becky Marston</td>
+                    <td>(518) 518-643-1625</td>
+                  </tr>
+                  <tr>
+                    <td>Youth Director</td>
+                    <td>Andrea Francia</td>
+                    <td>(518) 518-643-3827</td>
+                  </tr><tr>
+                    <td>Volunteer Fire Department</td>
+                    <td>Bob Brandt</td>
+                    <td>(518) 518-643-0293</td>
+                  </tr>
+
+            </table>
+            <div class="address">
+              <h2>Peru Main Office</h2>
+              <p>123 Main St.</p>
+              <p>Peru, NY 12972</p>
+              <p>Phone: (518) 563-1234</p>
+              <p>perucouncil@newyorkstate.com</p>
+            </div>
+        <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d181960.17871481256!2d-73.67717787152468!3d44.55348855230108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cca429bd8bea0a3%3A0xe487a2cd8c11b42e!2sPeru%2C%20NY%2012972!5e0!3m2!1sen!2sus!4v1616879066183!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </section>
+      
+    </main>
+    <footer>
+        &copy; 2021 | Haley Judd | New York | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+   <script src="script.js"></script>
+</body>
+</html>

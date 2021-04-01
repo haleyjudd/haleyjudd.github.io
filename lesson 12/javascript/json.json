@@ -1,0 +1,74 @@
+{
+    "towns": [
+
+     
+
+      {
+        "name": "Lakeshore Pediatric Dentistry",
+        "address": "2993 Main St, Peru, NY 12972",
+        "phone": "(518) 282-5519",
+        "website": "https://www.lakeshorepediatricdentistry.com/",
+        "imgurl": "images/lakeshorelogo.jpg"
+      },
+
+      {
+        "name": "Northern Orchard",
+        "address": "537 Union Rd, Peru, NY 12972",
+        "phone": "(518) 643-9718",
+        "website": "http://www.northernorchard.com/index.html",
+        "imgurl": "images/northernlogo.jpg"
+      },
+      {
+        "name": "Rulf's Orchard",
+        "address": "531 Bear Swamp Rd, Peru, NY 12972",
+        "phone": "(518) 643-8636",
+        "website": "https://www.rulfsorchard.com/",
+        "imgurl": "images/rulfslogo.jpg"
+      },
+
+
+      {
+        "name": "Pasquales Pizzeria",
+        "address": "2937 Main St, Peru, NY 12972",
+        "phone": "(518) 643-0791",
+        "website": "https://www.pasqualespizzeriamenu.com/",
+        "imgurl": "images/pasqualeslogo.jpg"
+      },
+      {
+        "name": "Liberty's Garage",
+        "address": "247 N Main St, Peru, NY 12972",
+        "phone": "(518) 643-5123",
+        "website": "https://www.libertysgarage.com",
+        "imgurl": "images/liberty.jpg"
+      },
+      {
+        "name": "Hamilton Funeral Home",
+        "address": "294 Mannix Rd.,Peru, NY 12972",
+        "phone": "(518) 643-9055",
+        "website": "https://www.hamiltonfuneralhome.com",
+        "imgurl": "images/Hamilton.jpg"
+      },
+      {
+        "name": "Green Acres Family Restaurant",
+        "address": "3065 N Main St, Peru, NY 12972",
+        "phone": "(518) 643-2345",
+        "website": "https://www.greenacres.com",
+        "imgurl": ""
+      },
+      {
+        "name": "Yarborough Square",
+        "address": "672 Bear Swamp Rd, Peru, NY 12972",
+        "phone": "(518) 643-7057",
+        "website": "https://www.yarboroughsquare.com",
+        "imgurl": ""
+      },
+
+      {
+        "name": "New Impression",
+        "address": "6 Mason St, Peru, NY 12972",
+        "phone": "(518) 643-0881",
+        "website": "https://www.newimpression.com",
+        "imgurl": ""
+      }
+    ]
+}   
