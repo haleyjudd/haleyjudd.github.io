@@ -181,11 +181,10 @@ main, footer {
   margin: auto;
 }
 #message {
-
+  
   position: absolute;
-  top: 1rem;
-  width: 100%;
-  padding: 1rem;
+  max-width: 100%;
+  padding: 1rem 7rem;
   background-color: white;
   border: 1pt solid yellow;
   font-size: 8pt;
