@@ -1,0 +1,52 @@
+@media only screen and (min-width: 64rem) {
+
+
+    .upcoming, .featured {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1rem;
+        grid-gap: 1rem;
+      }
+
+.img2 {
+    display: block;
+}
+
+      .call h1, .call h2 {
+        
+        font-size: 20pt;
+    
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+ /*Directory*/
+ .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+  
+  } 
+  
+  /*Contact*/
+  .address {
+    position:absolute;
+    margin: -34rem 3rem 2rem 34rem;
+    background-color: white;
+    text-align: center; 
+    border: solid .5rem #F8DB7E;
+    padding: 2rem;
+    box-shadow: 1rem 1rem 2rem gray;
+  
+  }
+
+  .contactMap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+
+}
