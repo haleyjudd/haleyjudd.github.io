@@ -53,14 +53,14 @@
         "address": "3065 N Main St, Peru, NY 12972",
         "phone": "(518) 643-2345",
         "website": "https://www.greenacres.com",
-        "imgurl": ""
+        "imgurl": "images/green.jpg"
       },
       {
         "name": "Yarborough Square",
         "address": "672 Bear Swamp Rd, Peru, NY 12972",
         "phone": "(518) 643-7057",
         "website": "https://www.yarboroughsquare.com",
-        "imgurl": ""
+        "imgurl": "images/square.jpg"
       },
 
       {
@@ -68,7 +68,7 @@
         "address": "6 Mason St, Peru, NY 12972",
         "phone": "(518) 643-0881",
         "website": "https://www.newimpression.com",
-        "imgurl": ""
+        "imgurl": "images/impressions.jpg"
       }
     ]
 }   

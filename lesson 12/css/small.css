@@ -38,7 +38,7 @@ p {
   
   header img {
     position: relative;
-    margin-left: 38%;
+    margin-left: 25%;
 
   
   }
@@ -46,10 +46,10 @@ p {
   header h1 {
     position: relative;
     color: #F23232;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: -5rem;
     font-family: "Stardos Stencil";
-    font-size: 50pt;
+    font-size: 40pt;
     text-shadow: 2px 3px 4px black;
     z-index: 1;
     
@@ -58,10 +58,10 @@ p {
   header h2 {
     color: black;
     padding-bottom: 1rem;
-    margin-left: 39%;
+    margin-left: 40%;
     margin-top: -3rem;
     font-family: "Dosis";
-    font-size: 20pt;
+    font-size: 15pt;
   }
 
   /*Nav */
@@ -132,42 +132,64 @@ nav a:hover {
 
 .call {
 background-color: #F8DB7E;
+margin: 2rem 0;
+box-shadow: .5rem .5rem .5rem gray;
 }
 
 .call h1, .call h2 {
     font-family: "Stardos Stencil";
-    font-size: 20pt;
+    font-size: 12pt;
     text-align: center;
     margin: 1rem;
     padding: 1rem;
 }
 
 .upcoming, .featured {
-  width: 100%;
+  width: 96%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 1rem;
+}
 
+.featured h3 {
+  text-align: center;
+}
+
+.img1, .img2 {
+  display: none;
+}
+
+.featured .img3 {
+  margin: 1rem 18%;
 }
 
 .events {
-  background-color: white;
-  padding: 3rem 15%;
-  border: solid .5rem #F8DB7E;
-  margin-right: 2rem;
-}
-
-#membership {
   width: 100%;
+  background-color: white;
+  border: solid .5rem #F8DB7E;
+  margin-right: 3rem;
+  
+}
+
+.events h2 {
+  text-decoration: underline solid 2pt #F8DB7E;
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+}
+
+.events li {
+  text-align: center;
+  font-size: 12pt;
+  padding: .5rem .5rem;
+}
+.weather {
+  width: 97%;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr;
   margin: 1rem;
+  
 }
 
-#membership li {
-  margin-left: rem;
-
-}
 
 .place2, .commerce {
   background-color: white;
@@ -175,6 +197,12 @@ background-color: #F8DB7E;
   margin: 0 2rem;
   border: solid .5rem #F8DB7E;
   padding: 1rem;
+ 
+}
+
+.place2 p {
+  padding: .5rem;
+  font-weight: bold;
 }
 
 .forecast h2 {
@@ -187,29 +215,36 @@ background-color: #F8DB7E;
 div#daysForecast {
   width: 90%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: white;
   text-align: center; 
-  margin: 0 2rem;
+  margin: 1rem 0rem 0 2rem;
   border: solid .5rem #F8DB7E;
   padding: 1rem;
+
 }
 
-
+#descript {
+  text-transform: capitalize;
+}
 .commerce {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 1rem -4rem 0 0;
+  width: 93%;
+  margin: 1rem 1rem;
   background-color: white;
   text-align: center; 
   border: solid .5rem #F8DB7E;
   padding: 1rem;
+  box-shadow: .5rem .5rem .5rem gray;
 
+}
+
+.contact {
+  margin-top: 1rem;
 }
 
 .contact img {
-    width: 40px;
+    width: 20px;
+    padding-top: .5rem;
 }
 
 /*About*/
@@ -236,7 +271,9 @@ div#about, div#about1 {
 
 }
 
-
+div#about h2, div#about1 h2 {
+  padding-bottom: 1rem;
+}
 
 #about img {
   width: 40%;
@@ -304,9 +341,20 @@ form label.top input, form label.top select {
   width: 100%;
   max-width: 20rem;
   background-color: rgb(228, 228, 253);
+ 
 }
 
+label.top {
+  margin-left: 1rem;
+}
 
+.benny td ul li {
+  margin-left: .5rem;
+}
+
+.benny {
+  margin: 1rem;
+}
 
 textarea {
   width: 99%;
@@ -329,6 +377,8 @@ form input.submitBtn {
   
 }
 
+
+
 form label.top input:required {
   border-left: solid red 6px;
 }
@@ -339,8 +389,7 @@ form label.top input:required:valid {
 
 .contactMap {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
   margin-top: 2rem;
   margin-bottom: 2rem;
   
@@ -374,12 +423,12 @@ td {
 }
 
 .map {
+
   margin: 1rem 1rem;
 }
 
 .address {
-  position:absolute;
-  margin: -34rem 3rem 2rem 30rem;
+
   background-color: white;
   text-align: center; 
   border: solid .5rem #F8DB7E;
@@ -395,11 +444,11 @@ td {
   grid-row-gap: 50px;
   width: 95%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 2rem;
   background: #F8DB7E;
   padding: 3rem;
-  border: solid .5rem black;
+  border: solid .3rem black;
 
 }
 

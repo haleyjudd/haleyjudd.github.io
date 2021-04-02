@@ -32,8 +32,90 @@
       nav button {
         display: none;
     }
+/* Header*/
+
+header img {
+      position: relative;
+      margin-left: 38%;
+  
+    
+    }
+      
+    header h1 {
+      position: relative;
+      color: #F23232;
+      margin-left: 45%;
+      margin-top: -5rem;
+      font-family: "Stardos Stencil";
+      font-size: 50pt;
+      text-shadow: 2px 3px 4px black;
+      z-index: 1;
+      
+    }
+    
+    header h2 {
+      color: black;
+      padding-bottom: 1rem;
+      margin-left: 39%;
+      margin-top: -3rem;
+      font-family: "Dosis";
+      font-size: 20pt;
+    }
+
+/*Home*/
+
+    .img1 {
+      width: 100%;
+      display: block;
+    }
 
 
+  .upcoming, .featured {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+
+}
+
+.weather {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 1rem;
+  
+}
+
+.call h1, .call h2 {
+  font-family: "Stardos Stencil";
+  font-size: 15pt;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.commerce {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem -2rem 0 0;
+ 
+
+}
+
+.contact img {
+  width: 40px;
+  padding-top: .5rem;
+}
+
+/*Directory*/
+.cards {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
 
 
 
