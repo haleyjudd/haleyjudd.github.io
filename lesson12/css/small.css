@@ -245,7 +245,7 @@ div#daysForecast {
 
 /*About*/
 
-#about, #about1 {
+.about, .about1 {
   display: flex;
 	flex-wrap: wrap;
   margin: 0 2rem;
@@ -257,7 +257,7 @@ div#daysForecast {
 }
 
 
-div#about, div#about1 {
+div.about, div.about1 {
   width: 90%;
   height: auto;
   margin: .5rem auto;
@@ -267,18 +267,18 @@ div#about, div#about1 {
 
 }
 
-div#about h2, div#about1 h2 {
+div.about h2, div.about1 h2 {
   padding-bottom: 1rem;
 }
 
-#about img {
+.about img {
   width: 40%;
   height: auto;
   float: right;
   padding: 1rem;
 }
 
-#about1 img {
+.about1 img {
   width: 40%;
   height: auto;
   float: left;
