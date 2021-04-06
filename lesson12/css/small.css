@@ -16,12 +16,16 @@ body {
     background-image: linear-gradient(to bottom right, gray, white);
 }
 
-h1, h2, h3, caption {
+h1, h2,  caption {
     font-family: "Stardos Stencil";
 }
 
-p, th, li, td {
+h3, p, th, li, td {
     font-family: "Dosis";
+}
+h3 {
+  margin-top: 1rem;
+  font-weight: normal;
 }
     
 
@@ -38,6 +42,7 @@ p, th, li, td {
   header img {
     position: relative;
     margin-left: 25%;
+    box-shadow: none;
 
   
   }
@@ -47,7 +52,6 @@ p, th, li, td {
     color: #F23232;
     margin-left: 40%;
     margin-top: -5rem;
-    font-family: "Stardos Stencil";
     font-size: 40pt;
     text-shadow: 2px 3px 4px black;
     z-index: 1;
@@ -127,12 +131,18 @@ nav a:hover {
     
 }
 
+img {
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem .5rem gray;
+}
+
 /*Home */
 
 .call {
 background-color: #F8DB7E;
 margin: 2rem 0;
 box-shadow: .5rem .5rem .5rem gray;
+
 }
 
 .call h1, .call h2 {
@@ -153,22 +163,19 @@ box-shadow: .5rem .5rem .5rem gray;
   display: none;
 }
 
-/*.featured .img3 {
-  margin: 1rem 18%;
-}*/
-
-
+.featured .img3 {
+  margin-left: 20%;
+}
 
 .events {
-  width: 100%;
+  width: 85%;
   background-color: white;
   border: solid .5rem #F8DB7E;
-  margin-right: 3rem;
-  
+  margin-left: 3rem; 
+  border-radius: 1rem;
 }
 
 .events h2 {
-  text-decoration: 2pt underline solid  #F8DB7E;
   text-align: center;
   padding: 2rem 0 1rem 0;
 }
@@ -183,6 +190,7 @@ box-shadow: .5rem .5rem .5rem gray;
   display: grid;
   grid-template-columns: 1fr;
   margin: 1rem;
+  
   
 }
 
@@ -202,9 +210,10 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .forecast h2 {
+  width: 90%;
   background-color: #F8DB7E;
   text-align: center;
-  margin: 0 2rem;
+  margin: 1rem 2rem 0 2rem;
   padding: .5rem;
 }
 
@@ -214,10 +223,10 @@ div#daysForecast {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: white;
   text-align: center; 
-  margin: 1rem 0rem 0 2rem;
+  margin: 0rem 0rem 0 2rem;
   border: solid .5rem #F8DB7E;
   padding: 1rem;
-
+  
 }
 
 #descript {
@@ -250,7 +259,7 @@ div#daysForecast {
 	flex-wrap: wrap;
   margin: 0 2rem;
   background-color: white;
-  border: solid 2px #F8DB7E;
+  border: solid 4px #F8DB7E;
   padding: 1rem;
   
   
@@ -276,6 +285,8 @@ div.about h2, div.about1 h2 {
   height: auto;
   float: right;
   padding: 1rem;
+  margin: 1rem;
+  border: solid 2px #F8DB7E;
 }
 
 .about1 img {
@@ -283,6 +294,8 @@ div.about h2, div.about1 h2 {
   height: auto;
   float: left;
   padding: 1rem;
+  margin: 1rem;
+  border: solid 2px #F8DB7E;
 }
 
 
@@ -370,7 +383,7 @@ form input.submitBtn {
   font-family: "Dosis";
   font-size: 12pt;
   box-shadow: 1rem 1rem 2rem gray;
-  
+  border: solid .2rem black;
 }
 
 
@@ -385,7 +398,7 @@ form label.top input:required:valid {
 
 .contactMap {
   width: 100%;
-
+  
   margin-top: 2rem;
   margin-bottom: 2rem;
   
@@ -394,6 +407,7 @@ form label.top input:required:valid {
 table {
   margin: 1rem 0 2rem 3rem;
   box-shadow: 1rem 1rem 2rem gray;
+  
 }
 
 table caption {
@@ -419,12 +433,12 @@ td {
 }
 
 .map {
-
+  
   margin: 1rem 1rem;
 }
 
 .address {
-
+  border-radius: 1rem;
   background-color: white;
   text-align: center; 
   border: solid .5rem #F8DB7E;
@@ -445,19 +459,22 @@ td {
   background: #F8DB7E;
   padding: 3rem;
   border: solid .3rem black;
-
+  border-radius: 1rem;
+  box-shadow: .5rem .5rem .5rem gray;
 }
 
 .cards div {
   background: white;
    border: solid .2rem black;
    padding: 1rem;
-   box-shadow: .5rem .5rem .5rem gray;
+  
+   border-radius: 1rem;
 }
 
 .cards div img {
   margin-left: 20%;
   padding-bottom: 1rem;
+  box-shadow: none;
   
 }
 

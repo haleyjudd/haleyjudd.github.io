@@ -1,6 +1,12 @@
 @media only screen and (min-width: 64rem) {
 
 
+header img {
+ margin-left: 37%;
+
+  
+  }
+
     .upcoming, .featured {
         width: 100%;
         display: grid;
@@ -13,17 +19,23 @@
     display: block;
 }
 
-.events {
-  margin-left: 0rem;
+.featured .img3 {
+  width: 46%;
+  height: auto;
+  margin-left: 1rem;
 }
 
-      .call h1, .call h2 {
-        
-        font-size: 20pt;
-    
-        margin: 1rem;
-        padding: 1rem;
-      }
+.events {
+  margin-left: -1.2rem;
+}
+
+.call h1, .call h2 {       
+  font-size: 20pt;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+
 
  /*Directory*/
  .cards {

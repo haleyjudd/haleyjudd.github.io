@@ -36,7 +36,7 @@
 
 header img {
       position: relative;
-      margin-left: 38%;
+      margin-left: 33%;
   
     
     }
@@ -69,7 +69,8 @@ header img {
 }
 
 .events {
-  margin-left: 3rem;
+  width: 100%;
+ 
 }
 
 .events li {
@@ -93,6 +94,8 @@ header img {
   
 }
 
+
+
 .call h1, .call h2 {
   font-family: "Stardos Stencil";
   font-size: 12pt;
@@ -113,6 +116,10 @@ header img {
 .contact img {
   width: 40px;
   padding-top: .5rem;
+}
+
+.contact {
+  margin-top: 0rem;
 }
 
 .featured .img3 {

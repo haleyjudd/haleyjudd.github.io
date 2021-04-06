@@ -45,7 +45,7 @@ weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
-
+/*
 const forecastURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=2453bb8c49b507f6bde5fe17c37e574e&units=imperial";
 
 fetch(forecastURL)
@@ -88,9 +88,9 @@ fetch(forecastURL)
       }
     }
   });
-
+*/
   
-/*  const forecastURL = "//api.openweathermap.org/data/2.5/onecall?lat=44.6995&lon=73.4529&appid=2453bb8c49b507f6bde5fe17c37e574e&units=imperial";
+  const forecastURL = "//api.openweathermap.org/data/2.5/onecall?lat=44.6995&lon=73.4529&appid=2453bb8c49b507f6bde5fe17c37e574e&units=imperial";
 
   fetch(forecastURL)
     .then((response) => response.json())
@@ -104,7 +104,7 @@ fetch(forecastURL)
        let time = mylist.daily[i].dt;
         console.log(time);
         console.log(i);
-        if (time.includes("21:00:00")) {
+        if (time.includes("1596564000")) {
           
         
           forecastDayNumber += 1;
@@ -135,7 +135,7 @@ fetch(forecastURL)
         }
       }
     });
-*/
+
   //Directory-Businesses
 
   const requestURL = 'javascript/json.json';
