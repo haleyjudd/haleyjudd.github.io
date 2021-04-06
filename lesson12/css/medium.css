@@ -64,14 +64,21 @@ header img {
 
 /*Home*/
 
-    .img1 {
-      width: 100%;
-      display: block;
-    }
+.img1 {
+  display: block;
+}
+
+.events {
+  margin-left: 3rem;
+}
+
+.events li {
+  padding: .3rem;
+}
 
 
   .upcoming, .featured {
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem;
@@ -88,7 +95,7 @@ header img {
 
 .call h1, .call h2 {
   font-family: "Stardos Stencil";
-  font-size: 15pt;
+  font-size: 12pt;
   text-align: center;
   margin: 1rem;
   padding: 1rem;
@@ -106,6 +113,12 @@ header img {
 .contact img {
   width: 40px;
   padding-top: .5rem;
+}
+
+.featured .img3 {
+  width: 46%;
+  height: auto;
+  margin-left: 10%;
 }
 
 /*Directory*/

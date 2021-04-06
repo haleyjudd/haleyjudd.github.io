@@ -13,6 +13,10 @@
     display: block;
 }
 
+.events {
+  margin-left: 0rem;
+}
+
       .call h1, .call h2 {
         
         font-size: 20pt;
