@@ -68,7 +68,7 @@ fetch(forecastURL)
         let theDayName = document.createElement("h5");
         theDayName.textContent = weekday[forecastDayNumber];
 
-        let theTemp = document.createElement("section");
+        let theTemp = document.createElement("div");
         theTemp.innerHTML = `${weatherInfo.list[i].main.temp}&#176;F`;
 
         let iconcode = weatherInfo.list[i].weather[0].icon;
