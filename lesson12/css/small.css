@@ -50,7 +50,7 @@ h3 {
   header h1 {
     position: relative;
     color: #F23232;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: -5rem;
     font-size: 40pt;
     text-shadow: 2px 3px 4px black;
@@ -61,7 +61,7 @@ h3 {
   header h2 {
     color: black;
     padding-bottom: 1rem;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: -3rem;
     font-family: "Dosis";
     font-size: 15pt;
@@ -164,7 +164,7 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .featured .img3 {
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .events {
@@ -200,8 +200,13 @@ box-shadow: .5rem .5rem .5rem gray;
   text-align: center; 
   margin: 0 2rem;
   border: solid .5rem #F8DB7E;
-  padding: 1rem;
  
+}
+
+.place2 h2{
+  padding: .5rem;
+  background-color: #F8DB7E;
+  border: none;
 }
 
 .place2 p {
@@ -210,15 +215,15 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .forecast h2 {
-  width: 90%;
+  width: 87%;
   background-color: #F8DB7E;
   text-align: center;
-  margin: 1rem 2rem 0 2rem;
+  margin: 0rem 2rem 0 2rem;
   padding: .5rem;
 }
 
 div#daysForecast {
-  width: 90%;
+  width: 87%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: white;
@@ -400,9 +405,7 @@ form label.top input:required:valid {
 
 .contactMap {
   width: 100%;
-  
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem 0;
   
 }
 
@@ -454,10 +457,10 @@ td {
 .cards {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
-  width: 95%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr;
-  margin: 2rem;
+  margin: 1rem;
   background: white;
   padding: 3rem;
   border: solid 2pt black;
