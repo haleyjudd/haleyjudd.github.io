@@ -259,7 +259,7 @@ div#daysForecast {
 	flex-wrap: wrap;
   margin: 0 2rem;
   background-color: white;
-  border: solid 4px #F8DB7E;
+  border: solid 2px black;
   padding: 1rem;
   
   
@@ -286,7 +286,8 @@ div.about h2, div.about1 h2 {
   float: right;
   padding: 1rem;
   margin: 1rem;
-  border: solid 2px #F8DB7E;
+  border: solid 3px #F8DB7E;
+  box-shadow: none;
 }
 
 .about1 img {
@@ -295,7 +296,8 @@ div.about h2, div.about1 h2 {
   float: left;
   padding: 1rem;
   margin: 1rem;
-  border: solid 2px #F8DB7E;
+  border: solid 3px #F8DB7E;
+  box-shadow: none;
 }
 
 
@@ -315,8 +317,8 @@ h1.forms {
 form fieldset {
   width: 75%;
   margin: 2rem 3rem;
-  border: 2px solid gray;
-  border-radius: 10px;
+  border: 2px solid black;
+
   padding: .5rem 2%;
   background-color: white;
   box-shadow: 1rem 1rem 2rem gray;
@@ -383,7 +385,7 @@ form input.submitBtn {
   font-family: "Dosis";
   font-size: 12pt;
   box-shadow: 1rem 1rem 2rem gray;
-  border: solid .2rem black;
+  border: solid 1pt black;
 }
 
 
@@ -456,18 +458,18 @@ td {
   display: grid;
   grid-template-columns: 1fr;
   margin: 2rem;
-  background: #F8DB7E;
+  background: white;
   padding: 3rem;
-  border: solid .3rem black;
-  border-radius: 1rem;
+  border: solid 2pt black;
+  
   box-shadow: .5rem .5rem .5rem gray;
 }
 
 .cards div {
   background: white;
-   border: solid .2rem black;
+   border: solid .3rem #F8DB7E;
    padding: 1rem;
-  
+   box-shadow: .5rem .5rem .5rem gray;
    border-radius: 1rem;
 }
 
