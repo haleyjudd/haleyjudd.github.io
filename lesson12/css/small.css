@@ -164,6 +164,7 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .featured .img3 {
+  width: 75%;
   margin-left: 10%;
 }
 
@@ -477,7 +478,7 @@ td {
 }
 
 .cards div img {
-  margin-left: 20%;
+  margin-left: 10%;
   padding-bottom: 1rem;
   box-shadow: none;
   
