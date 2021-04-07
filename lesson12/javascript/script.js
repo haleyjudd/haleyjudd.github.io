@@ -70,7 +70,7 @@ const forecastURL = "//api.openweathermap.org/data/2.5/onecall?lat=44.578&lon=-7
           let theDayName = document.createElement("h5");
           theDayName.textContent = weekday[forecastDayNumber];
   
-          let theTemp = document.createElement("div");
+          let theTemp = document.createElement("p");
           console.log(mylist.daily[i])
           theTemp.innerHTML = `${mylist.daily[i].temp.day}&#176;F`;
   

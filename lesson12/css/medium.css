@@ -61,6 +61,7 @@ header img {
 
 .img1 {
   display: block;
+  
 }
 
 .events {
@@ -117,7 +118,7 @@ header img {
 }
 
 .featured .img3 {
-  width: 46%;
+  width: 20%;
   height: auto;
   margin-left: 10%;
 }

@@ -6,10 +6,6 @@
     padding: 0;
   }
 
-body, html {
-    max-width: 100%;
-   
-  }
 
 body {
     background-color: gray; /* For browsers that do not support gradients */
@@ -163,8 +159,12 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .featured .img3 {
-  width: 95%;
-  margin-left: 2rem;
+  width: 100%;
+  margin-left: 20%;
+}
+
+.featured .img3 h3 {
+  margin-right: 14rem;
 }
 
 
@@ -216,7 +216,7 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 .forecast h2 {
-  width: 87%;
+  width: 90%;
   background-color: #F8DB7E;
   text-align: center;
   margin: 0rem 2rem 0 2rem;
@@ -224,15 +224,23 @@ box-shadow: .5rem .5rem .5rem gray;
 }
 
 div#daysForecast {
-  width: 87%;
+  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: white;
   text-align: center; 
-  margin: 0rem 0rem 0 2rem;
+  margin: 0rem 0rem 0rem 2rem;
   border: solid .5rem #F8DB7E;
   padding: 1rem;
   
+}
+
+#daysForecast img {
+  box-shadow: none;
+}
+
+#daysForecast p {
+  padding-top: .5rem;
 }
 
 #descript {
@@ -256,6 +264,7 @@ div#daysForecast {
 .contact img {
     width: 20px;
     padding-top: .5rem;
+    box-shadow: none;
 }
 
 /*About*/
